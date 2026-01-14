@@ -29,6 +29,9 @@ OUT_PATH  = "data_out/bariatric_outcomes_10000_seed42.csv"
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
+# Separator for console output
+SEPARATOR = "=" * 80
+
 # Forbidden feature patterns that indicate data leakage
 FORBIDDEN_FEATURE_PATTERNS = [
     r".*_def_12m$",      # Deficiency labels at 12m
@@ -263,9 +266,9 @@ def main():
     # Validate no forbidden patterns in features (fail-fast on leakage)
     validate_feature_columns(feature_cols)
     
-    print(f"\n{'='*80}")
+    print(f"\n{SEPARATOR}")
     print(f"FEATURE VALIDATION PASSED: {len(feature_cols)} features")
-    print(f"{'='*80}\n")
+    print(f"{SEPARATOR}\n")
     
     # Train/test split stratified by patient_id (already done via random_state ensuring reproducibility)
     train_df, test_df = train_test_split(
