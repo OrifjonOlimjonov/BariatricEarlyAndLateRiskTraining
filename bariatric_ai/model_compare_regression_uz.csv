@@ -1,0 +1,3 @@
+Model,Vazifa,MAE (o‘rtacha absolyut xato),R²
+LightGBM (kalibratsiyalangan),12 oyda umumiy vazn yo‘qotish (TWL),0.02522459513259175,0.2448418611056694
+XGBoost (kalibratsiyalangan),12 oyda umumiy vazn yo‘qotish (TWL),0.02479427221293616,0.2613331050522647

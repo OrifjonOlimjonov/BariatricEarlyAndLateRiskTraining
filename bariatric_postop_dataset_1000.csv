@@ -1,0 +1,1001 @@
+age,gender,surgery_type,post_op_phase,BMI,symptoms,recommended_diet,supplements,recommendation
+19,M,Sleeve,1-7 days,32.9,nausea,clear liquids,Protein Iron,Small frequent meals
+45,F,Sleeve,6+ months,30.1,dumping,balanced diet,Multivitamin,Eat slowly
+30,M,Sleeve,6+ months,37.9,fatigue,balanced diet,Protein Calcium,Eat slowly
+62,M,Gastric Bypass,2-4 weeks,34.1,dumping,pureed food,Protein Calcium,Chew food well
+23,M,Sleeve,1-7 days,35.9,constipation,clear liquids,Multivitamin,Hydration monitoring
+64,M,Mini Bypass,1-7 days,30.7,acid reflux,clear liquids,Protein,Hydration monitoring
+41,F,Mini Bypass,6+ months,29.5,dumping,balanced diet,Protein Calcium,Hydration monitoring
+32,F,Gastric Bypass,1-7 days,34.1,constipation,clear liquids,Protein B12,Chew food well
+31,M,Mini Bypass,1-3 months,48.6,nausea,soft food,Multivitamin,Increase protein intake
+64,F,Sleeve,6+ months,38.2,fatigue,balanced diet,Protein Iron,Avoid sugar
+21,F,Sleeve,1-3 months,45.7,acid reflux,soft food,Iron B12,Small frequent meals
+54,M,Sleeve,2-4 weeks,42.4,acid reflux,pureed food,Protein Iron,Routine blood tests
+34,F,Sleeve,2-4 weeks,44.4,fatigue,pureed food,Protein Iron,Regular physical activity
+43,M,Sleeve,6+ months,49.9,vomiting,balanced diet,Multivitamin,Routine blood tests
+21,F,Sleeve,1-7 days,41.8,acid reflux,clear liquids,Multivitamin,Small frequent meals
+42,M,Mini Bypass,3-6 months,33.5,none,solid food,Protein Iron,Small frequent meals
+35,M,Sleeve,6+ months,34.5,vomiting,balanced diet,Calcium D vitamin,Eat slowly
+50,F,Mini Bypass,1-3 months,48.1,fatigue,soft food,Protein Calcium,Avoid sugar
+41,F,Mini Bypass,2-4 weeks,49.0,none,pureed food,Multivitamin,Chew food well
+19,F,Gastric Bypass,3-6 months,47.3,fatigue,solid food,Protein B12,Eat slowly
+54,F,Sleeve,2-4 weeks,44.1,nausea,pureed food,Protein Calcium,Increase protein intake
+60,M,Mini Bypass,2-4 weeks,31.6,acid reflux,pureed food,Protein B12,Avoid sugar
+43,M,Gastric Bypass,1-3 months,47.8,hair loss,soft food,Protein,Avoid sugar
+22,M,Sleeve,2-4 weeks,40.9,dumping,pureed food,Multivitamin,Avoid sugar
+22,F,Sleeve,1-7 days,29.5,none,clear liquids,Protein Calcium,Chew food well
+50,F,Gastric Bypass,1-7 days,42.7,dumping,clear liquids,Multivitamin,Increase protein intake
+54,M,Sleeve,6+ months,45.3,acid reflux,balanced diet,Protein B12,Small frequent meals
+60,M,Gastric Bypass,1-7 days,37.3,hair loss,clear liquids,Protein Calcium,Eat slowly
+21,M,Mini Bypass,1-7 days,35.5,nausea,clear liquids,Protein B12,Avoid sugar
+52,M,Sleeve,2-4 weeks,37.3,fatigue,pureed food,Calcium D vitamin,Avoid sugar
+46,F,Sleeve,1-7 days,42.3,none,clear liquids,Protein,Avoid sugar
+44,M,Gastric Bypass,2-4 weeks,32.7,acid reflux,pureed food,Protein,Increase protein intake
+18,M,Gastric Bypass,3-6 months,48.4,hair loss,solid food,Iron B12,Regular physical activity
+60,M,Sleeve,6+ months,32.2,dumping,balanced diet,Protein,Eat slowly
+21,F,Mini Bypass,1-3 months,38.5,vomiting,soft food,Protein,Small frequent meals
+22,F,Mini Bypass,2-4 weeks,47.0,acid reflux,pureed food,Protein,Avoid sugar
+56,F,Mini Bypass,6+ months,29.8,constipation,balanced diet,Iron B12,Avoid sugar
+33,M,Gastric Bypass,1-3 months,30.9,fatigue,soft food,Calcium D vitamin,Chew food well
+18,M,Mini Bypass,1-7 days,50.0,nausea,clear liquids,Protein,Avoid sugar
+34,F,Gastric Bypass,6+ months,47.4,dumping,balanced diet,Iron B12,Hydration monitoring
+46,M,Mini Bypass,2-4 weeks,49.6,none,pureed food,Protein Iron,Hydration monitoring
+26,M,Sleeve,1-7 days,47.6,vomiting,clear liquids,Iron B12,Hydration monitoring
+31,M,Sleeve,6+ months,43.1,fatigue,balanced diet,Multivitamin,Routine blood tests
+21,F,Mini Bypass,1-3 months,37.3,fatigue,soft food,Protein,Eat slowly
+26,M,Sleeve,1-3 months,44.3,acid reflux,soft food,Multivitamin,Eat slowly
+22,F,Mini Bypass,1-7 days,28.8,constipation,clear liquids,Multivitamin,Increase protein intake
+26,F,Gastric Bypass,3-6 months,36.0,none,solid food,Iron B12,Avoid sugar
+60,F,Gastric Bypass,2-4 weeks,45.2,acid reflux,pureed food,Multivitamin,Increase protein intake
+28,F,Gastric Bypass,2-4 weeks,28.5,constipation,pureed food,Protein Calcium,Regular physical activity
+35,F,Mini Bypass,2-4 weeks,30.4,none,pureed food,Protein Calcium,Routine blood tests
+30,M,Gastric Bypass,2-4 weeks,34.7,dumping,pureed food,Protein B12,Eat slowly
+43,M,Gastric Bypass,2-4 weeks,47.0,fatigue,pureed food,Iron B12,Regular physical activity
+39,F,Sleeve,6+ months,47.3,fatigue,balanced diet,Protein B12,Hydration monitoring
+24,M,Gastric Bypass,1-7 days,44.0,constipation,clear liquids,Calcium D vitamin,Small frequent meals
+54,F,Gastric Bypass,3-6 months,29.0,acid reflux,solid food,Protein,Avoid sugar
+45,F,Mini Bypass,1-3 months,48.3,constipation,soft food,Protein Iron,Small frequent meals
+50,M,Mini Bypass,1-3 months,37.0,acid reflux,soft food,Protein Iron,Hydration monitoring
+26,F,Gastric Bypass,6+ months,42.6,acid reflux,balanced diet,Protein Iron,Increase protein intake
+54,M,Gastric Bypass,6+ months,40.1,none,balanced diet,Iron B12,Hydration monitoring
+45,M,Gastric Bypass,2-4 weeks,37.7,dumping,pureed food,Multivitamin,Routine blood tests
+60,F,Gastric Bypass,2-4 weeks,39.3,constipation,pureed food,Protein,Avoid sugar
+32,F,Sleeve,1-3 months,28.5,dumping,soft food,Calcium D vitamin,Small frequent meals
+44,F,Mini Bypass,3-6 months,43.3,hair loss,solid food,Calcium D vitamin,Avoid sugar
+59,F,Sleeve,2-4 weeks,45.1,dumping,pureed food,Protein B12,Routine blood tests
+53,F,Sleeve,1-7 days,38.0,hair loss,clear liquids,Protein Iron,Chew food well
+57,M,Mini Bypass,3-6 months,37.8,vomiting,solid food,Protein Iron,Routine blood tests
+34,F,Mini Bypass,3-6 months,34.1,hair loss,solid food,Protein Iron,Avoid sugar
+46,F,Mini Bypass,1-3 months,34.3,fatigue,soft food,Iron B12,Chew food well
+23,F,Sleeve,6+ months,33.1,vomiting,balanced diet,Protein Iron,Avoid sugar
+44,M,Gastric Bypass,1-7 days,39.9,acid reflux,clear liquids,Protein,Avoid sugar
+42,F,Mini Bypass,3-6 months,36.4,none,solid food,Iron B12,Hydration monitoring
+44,F,Gastric Bypass,3-6 months,32.8,acid reflux,solid food,Calcium D vitamin,Eat slowly
+39,M,Mini Bypass,3-6 months,31.6,hair loss,solid food,Protein B12,Eat slowly
+55,F,Sleeve,3-6 months,42.1,vomiting,solid food,Protein Calcium,Routine blood tests
+21,M,Gastric Bypass,2-4 weeks,35.2,hair loss,pureed food,Iron B12,Chew food well
+35,M,Gastric Bypass,3-6 months,46.4,hair loss,solid food,Protein,Eat slowly
+32,F,Mini Bypass,1-3 months,28.9,none,soft food,Protein B12,Avoid sugar
+57,F,Sleeve,1-7 days,30.8,nausea,clear liquids,Multivitamin,Avoid sugar
+62,M,Gastric Bypass,3-6 months,31.7,nausea,solid food,Protein Calcium,Increase protein intake
+24,F,Gastric Bypass,1-3 months,40.7,acid reflux,soft food,Calcium D vitamin,Avoid sugar
+55,F,Sleeve,1-7 days,43.3,fatigue,clear liquids,Protein Calcium,Small frequent meals
+20,M,Mini Bypass,6+ months,37.4,constipation,balanced diet,Protein,Chew food well
+44,M,Sleeve,1-7 days,37.5,constipation,clear liquids,Protein Iron,Routine blood tests
+45,F,Mini Bypass,2-4 weeks,39.5,fatigue,pureed food,Multivitamin,Routine blood tests
+45,M,Gastric Bypass,3-6 months,46.7,nausea,solid food,Iron B12,Routine blood tests
+47,M,Gastric Bypass,2-4 weeks,28.6,constipation,pureed food,Protein B12,Routine blood tests
+40,M,Gastric Bypass,2-4 weeks,34.2,fatigue,pureed food,Multivitamin,Eat slowly
+30,F,Sleeve,6+ months,43.8,hair loss,balanced diet,Multivitamin,Avoid sugar
+59,M,Gastric Bypass,3-6 months,45.4,nausea,solid food,Iron B12,Avoid sugar
+62,F,Gastric Bypass,3-6 months,42.6,constipation,solid food,Calcium D vitamin,Chew food well
+53,M,Gastric Bypass,3-6 months,43.5,fatigue,solid food,Iron B12,Hydration monitoring
+25,F,Gastric Bypass,2-4 weeks,30.6,vomiting,pureed food,Protein B12,Avoid sugar
+35,M,Sleeve,3-6 months,46.3,fatigue,solid food,Protein B12,Chew food well
+37,F,Mini Bypass,2-4 weeks,39.8,fatigue,pureed food,Protein,Eat slowly
+36,F,Mini Bypass,6+ months,47.1,hair loss,balanced diet,Protein,Eat slowly
+36,M,Gastric Bypass,6+ months,37.7,vomiting,balanced diet,Protein,Hydration monitoring
+25,F,Gastric Bypass,3-6 months,38.8,none,solid food,Protein B12,Increase protein intake
+37,F,Sleeve,6+ months,30.6,acid reflux,balanced diet,Multivitamin,Avoid sugar
+42,M,Gastric Bypass,6+ months,34.5,acid reflux,balanced diet,Iron B12,Eat slowly
+24,F,Mini Bypass,6+ months,32.6,nausea,balanced diet,Protein B12,Avoid sugar
+53,F,Sleeve,2-4 weeks,28.1,hair loss,pureed food,Protein Iron,Routine blood tests
+20,F,Gastric Bypass,1-3 months,43.6,hair loss,soft food,Protein,Avoid sugar
+58,F,Gastric Bypass,1-3 months,30.5,dumping,soft food,Protein Iron,Increase protein intake
+27,F,Sleeve,1-3 months,31.7,fatigue,soft food,Multivitamin,Hydration monitoring
+25,M,Mini Bypass,3-6 months,34.7,acid reflux,solid food,Iron B12,Routine blood tests
+23,F,Gastric Bypass,3-6 months,44.2,fatigue,solid food,Protein,Small frequent meals
+61,F,Mini Bypass,2-4 weeks,46.1,none,pureed food,Protein Calcium,Increase protein intake
+51,M,Gastric Bypass,3-6 months,32.0,acid reflux,solid food,Protein Iron,Routine blood tests
+48,M,Gastric Bypass,1-7 days,35.3,nausea,clear liquids,Protein Calcium,Increase protein intake
+44,M,Gastric Bypass,1-3 months,42.6,acid reflux,soft food,Protein Calcium,Eat slowly
+23,M,Gastric Bypass,3-6 months,35.1,acid reflux,solid food,Protein Calcium,Eat slowly
+47,M,Sleeve,6+ months,32.1,constipation,balanced diet,Multivitamin,Routine blood tests
+21,F,Gastric Bypass,3-6 months,40.1,fatigue,solid food,Calcium D vitamin,Routine blood tests
+19,F,Mini Bypass,1-7 days,31.5,none,clear liquids,Multivitamin,Regular physical activity
+32,F,Gastric Bypass,1-7 days,48.8,vomiting,clear liquids,Calcium D vitamin,Hydration monitoring
+63,M,Gastric Bypass,6+ months,46.4,hair loss,balanced diet,Protein B12,Routine blood tests
+27,M,Sleeve,6+ months,48.3,vomiting,balanced diet,Protein Calcium,Small frequent meals
+44,M,Mini Bypass,1-3 months,33.9,none,soft food,Iron B12,Hydration monitoring
+55,M,Sleeve,6+ months,37.8,hair loss,balanced diet,Iron B12,Chew food well
+52,M,Gastric Bypass,6+ months,48.5,dumping,balanced diet,Protein Iron,Avoid sugar
+42,F,Gastric Bypass,6+ months,29.0,hair loss,balanced diet,Protein Iron,Regular physical activity
+60,F,Gastric Bypass,3-6 months,49.2,vomiting,solid food,Multivitamin,Chew food well
+46,F,Mini Bypass,1-7 days,48.0,none,clear liquids,Protein Iron,Increase protein intake
+59,F,Sleeve,3-6 months,38.3,fatigue,solid food,Iron B12,Regular physical activity
+39,M,Gastric Bypass,1-7 days,41.8,hair loss,clear liquids,Protein Calcium,Eat slowly
+22,F,Mini Bypass,6+ months,43.1,fatigue,balanced diet,Protein B12,Small frequent meals
+24,F,Gastric Bypass,3-6 months,31.7,fatigue,solid food,Protein,Eat slowly
+21,M,Gastric Bypass,1-3 months,36.2,vomiting,soft food,Protein B12,Regular physical activity
+61,F,Sleeve,6+ months,31.9,acid reflux,balanced diet,Multivitamin,Avoid sugar
+55,F,Sleeve,3-6 months,38.1,fatigue,solid food,Calcium D vitamin,Hydration monitoring
+47,M,Mini Bypass,1-7 days,40.0,nausea,clear liquids,Calcium D vitamin,Chew food well
+37,M,Mini Bypass,6+ months,33.5,fatigue,balanced diet,Protein B12,Regular physical activity
+24,F,Gastric Bypass,3-6 months,40.6,fatigue,solid food,Protein Iron,Hydration monitoring
+60,M,Gastric Bypass,1-7 days,28.2,none,clear liquids,Multivitamin,Routine blood tests
+32,M,Sleeve,1-3 months,42.0,fatigue,soft food,Protein Iron,Increase protein intake
+58,F,Gastric Bypass,1-7 days,45.3,none,clear liquids,Multivitamin,Chew food well
+23,M,Gastric Bypass,2-4 weeks,44.4,vomiting,pureed food,Protein B12,Increase protein intake
+41,M,Sleeve,6+ months,33.7,hair loss,balanced diet,Protein Calcium,Hydration monitoring
+25,M,Sleeve,1-3 months,31.1,dumping,soft food,Protein Calcium,Regular physical activity
+41,F,Gastric Bypass,6+ months,28.3,nausea,balanced diet,Calcium D vitamin,Chew food well
+55,M,Mini Bypass,1-3 months,48.7,nausea,soft food,Protein Iron,Avoid sugar
+19,M,Mini Bypass,3-6 months,32.9,nausea,solid food,Protein Iron,Routine blood tests
+59,M,Sleeve,1-3 months,31.1,none,soft food,Iron B12,Routine blood tests
+24,F,Mini Bypass,1-7 days,31.0,hair loss,clear liquids,Iron B12,Regular physical activity
+64,F,Gastric Bypass,6+ months,42.4,hair loss,balanced diet,Multivitamin,Regular physical activity
+20,M,Sleeve,1-3 months,37.8,dumping,soft food,Protein Calcium,Chew food well
+61,M,Mini Bypass,1-7 days,47.8,constipation,clear liquids,Protein,Regular physical activity
+30,F,Gastric Bypass,1-3 months,30.0,dumping,soft food,Protein Iron,Eat slowly
+39,F,Sleeve,1-7 days,45.3,dumping,clear liquids,Protein,Avoid sugar
+31,F,Gastric Bypass,6+ months,45.0,none,balanced diet,Iron B12,Increase protein intake
+52,M,Sleeve,2-4 weeks,30.4,none,pureed food,Protein B12,Eat slowly
+33,M,Sleeve,1-3 months,31.8,none,soft food,Protein B12,Regular physical activity
+25,F,Gastric Bypass,6+ months,37.9,constipation,balanced diet,Multivitamin,Small frequent meals
+50,F,Mini Bypass,3-6 months,29.0,fatigue,solid food,Calcium D vitamin,Eat slowly
+48,M,Gastric Bypass,1-7 days,43.1,hair loss,clear liquids,Protein Iron,Routine blood tests
+23,M,Mini Bypass,1-7 days,31.3,vomiting,clear liquids,Iron B12,Chew food well
+56,M,Gastric Bypass,3-6 months,39.1,acid reflux,solid food,Protein,Small frequent meals
+64,F,Gastric Bypass,6+ months,37.9,dumping,balanced diet,Calcium D vitamin,Chew food well
+43,M,Mini Bypass,3-6 months,30.1,acid reflux,solid food,Iron B12,Hydration monitoring
+27,M,Sleeve,1-3 months,30.0,nausea,soft food,Protein,Regular physical activity
+41,F,Mini Bypass,1-7 days,29.3,constipation,clear liquids,Protein Iron,Small frequent meals
+40,M,Mini Bypass,3-6 months,29.1,fatigue,solid food,Multivitamin,Hydration monitoring
+24,F,Sleeve,1-3 months,42.4,dumping,soft food,Protein Calcium,Small frequent meals
+53,M,Sleeve,1-3 months,44.8,dumping,soft food,Protein Calcium,Regular physical activity
+57,F,Mini Bypass,6+ months,48.4,fatigue,balanced diet,Protein,Increase protein intake
+62,M,Gastric Bypass,1-3 months,35.7,vomiting,soft food,Protein Calcium,Increase protein intake
+60,M,Sleeve,6+ months,31.1,none,balanced diet,Protein,Avoid sugar
+44,M,Gastric Bypass,3-6 months,31.5,fatigue,solid food,Protein Iron,Chew food well
+56,F,Sleeve,6+ months,31.4,none,balanced diet,Protein Iron,Small frequent meals
+46,M,Gastric Bypass,1-3 months,41.4,acid reflux,soft food,Iron B12,Avoid sugar
+25,M,Gastric Bypass,6+ months,30.4,hair loss,balanced diet,Multivitamin,Hydration monitoring
+32,M,Mini Bypass,1-7 days,29.2,dumping,clear liquids,Iron B12,Avoid sugar
+34,M,Gastric Bypass,2-4 weeks,30.6,hair loss,pureed food,Protein Iron,Regular physical activity
+26,M,Mini Bypass,2-4 weeks,43.5,constipation,pureed food,Protein,Regular physical activity
+45,F,Gastric Bypass,1-7 days,48.3,constipation,clear liquids,Multivitamin,Regular physical activity
+43,M,Gastric Bypass,6+ months,30.5,none,balanced diet,Iron B12,Increase protein intake
+47,M,Sleeve,6+ months,37.6,nausea,balanced diet,Protein B12,Regular physical activity
+43,F,Gastric Bypass,6+ months,47.2,constipation,balanced diet,Protein B12,Chew food well
+22,F,Mini Bypass,2-4 weeks,39.2,constipation,pureed food,Iron B12,Increase protein intake
+24,F,Gastric Bypass,2-4 weeks,32.3,vomiting,pureed food,Protein Calcium,Small frequent meals
+58,M,Gastric Bypass,2-4 weeks,44.6,hair loss,pureed food,Protein Iron,Chew food well
+27,M,Sleeve,1-3 months,38.3,fatigue,soft food,Protein Calcium,Hydration monitoring
+21,M,Mini Bypass,6+ months,29.6,hair loss,balanced diet,Calcium D vitamin,Eat slowly
+41,M,Sleeve,1-7 days,42.2,nausea,clear liquids,Multivitamin,Regular physical activity
+55,F,Gastric Bypass,3-6 months,48.0,dumping,solid food,Iron B12,Routine blood tests
+27,F,Gastric Bypass,6+ months,30.3,constipation,balanced diet,Protein Iron,Small frequent meals
+59,F,Sleeve,6+ months,33.5,hair loss,balanced diet,Calcium D vitamin,Increase protein intake
+41,M,Gastric Bypass,1-3 months,37.0,constipation,soft food,Protein Iron,Eat slowly
+22,M,Sleeve,1-3 months,40.3,acid reflux,soft food,Iron B12,Hydration monitoring
+27,M,Sleeve,6+ months,40.8,vomiting,balanced diet,Iron B12,Hydration monitoring
+26,F,Gastric Bypass,3-6 months,40.3,constipation,solid food,Protein Calcium,Increase protein intake
+23,M,Mini Bypass,6+ months,36.0,constipation,balanced diet,Iron B12,Increase protein intake
+39,M,Sleeve,2-4 weeks,33.0,vomiting,pureed food,Protein B12,Small frequent meals
+24,F,Mini Bypass,1-3 months,35.4,vomiting,soft food,Multivitamin,Regular physical activity
+28,F,Mini Bypass,2-4 weeks,45.0,vomiting,pureed food,Protein Iron,Routine blood tests
+44,M,Mini Bypass,1-7 days,43.8,hair loss,clear liquids,Multivitamin,Hydration monitoring
+32,F,Gastric Bypass,3-6 months,49.2,hair loss,solid food,Protein Calcium,Avoid sugar
+61,M,Gastric Bypass,1-3 months,44.9,acid reflux,soft food,Multivitamin,Regular physical activity
+30,F,Gastric Bypass,2-4 weeks,29.1,hair loss,pureed food,Protein Calcium,Chew food well
+24,F,Gastric Bypass,6+ months,29.8,vomiting,balanced diet,Iron B12,Routine blood tests
+27,M,Sleeve,6+ months,48.8,dumping,balanced diet,Protein Calcium,Routine blood tests
+19,M,Sleeve,1-3 months,36.7,constipation,soft food,Protein B12,Regular physical activity
+41,F,Sleeve,1-7 days,35.0,nausea,clear liquids,Protein Calcium,Chew food well
+26,F,Gastric Bypass,2-4 weeks,48.2,hair loss,pureed food,Protein Iron,Increase protein intake
+46,F,Sleeve,3-6 months,28.4,dumping,solid food,Protein Calcium,Increase protein intake
+64,M,Sleeve,6+ months,45.1,dumping,balanced diet,Iron B12,Small frequent meals
+33,M,Mini Bypass,1-7 days,45.5,hair loss,clear liquids,Protein,Small frequent meals
+56,F,Mini Bypass,3-6 months,39.3,dumping,solid food,Protein Iron,Increase protein intake
+45,F,Mini Bypass,1-3 months,35.8,acid reflux,soft food,Protein B12,Small frequent meals
+41,F,Mini Bypass,6+ months,40.0,none,balanced diet,Calcium D vitamin,Routine blood tests
+58,M,Gastric Bypass,1-7 days,33.6,none,clear liquids,Iron B12,Small frequent meals
+33,F,Mini Bypass,1-3 months,44.2,constipation,soft food,Protein B12,Eat slowly
+52,M,Mini Bypass,1-3 months,31.9,hair loss,soft food,Protein Iron,Routine blood tests
+26,F,Mini Bypass,2-4 weeks,45.1,hair loss,pureed food,Protein,Hydration monitoring
+20,F,Sleeve,2-4 weeks,34.9,fatigue,pureed food,Multivitamin,Regular physical activity
+48,M,Sleeve,6+ months,44.6,dumping,balanced diet,Iron B12,Chew food well
+59,M,Gastric Bypass,1-7 days,30.7,constipation,clear liquids,Calcium D vitamin,Regular physical activity
+42,M,Sleeve,3-6 months,38.9,hair loss,solid food,Iron B12,Hydration monitoring
+64,M,Sleeve,1-7 days,37.5,vomiting,clear liquids,Multivitamin,Hydration monitoring
+24,F,Gastric Bypass,1-3 months,42.5,fatigue,soft food,Calcium D vitamin,Regular physical activity
+62,M,Gastric Bypass,2-4 weeks,37.8,constipation,pureed food,Multivitamin,Regular physical activity
+58,F,Sleeve,1-3 months,42.8,acid reflux,soft food,Iron B12,Increase protein intake
+27,M,Sleeve,1-7 days,30.8,dumping,clear liquids,Protein Calcium,Chew food well
+42,F,Mini Bypass,1-3 months,31.4,hair loss,soft food,Iron B12,Chew food well
+22,F,Mini Bypass,3-6 months,36.1,constipation,solid food,Protein Iron,Hydration monitoring
+25,F,Mini Bypass,2-4 weeks,32.1,acid reflux,pureed food,Multivitamin,Small frequent meals
+34,M,Sleeve,1-3 months,49.9,fatigue,soft food,Protein Iron,Routine blood tests
+25,F,Sleeve,2-4 weeks,37.9,hair loss,pureed food,Protein,Chew food well
+63,F,Mini Bypass,1-3 months,39.9,fatigue,soft food,Protein Calcium,Increase protein intake
+41,F,Sleeve,2-4 weeks,49.7,vomiting,pureed food,Protein B12,Routine blood tests
+41,M,Gastric Bypass,1-7 days,45.7,vomiting,clear liquids,Multivitamin,Small frequent meals
+37,M,Mini Bypass,1-7 days,43.8,acid reflux,clear liquids,Protein Calcium,Regular physical activity
+22,F,Gastric Bypass,6+ months,42.1,hair loss,balanced diet,Calcium D vitamin,Chew food well
+53,F,Sleeve,2-4 weeks,37.5,none,pureed food,Protein Calcium,Small frequent meals
+27,M,Sleeve,6+ months,31.6,dumping,balanced diet,Iron B12,Hydration monitoring
+34,F,Mini Bypass,1-7 days,49.0,fatigue,clear liquids,Protein B12,Hydration monitoring
+52,F,Mini Bypass,6+ months,42.1,vomiting,balanced diet,Protein B12,Chew food well
+20,F,Sleeve,6+ months,29.0,fatigue,balanced diet,Protein Iron,Avoid sugar
+44,F,Gastric Bypass,6+ months,47.6,fatigue,balanced diet,Protein Iron,Hydration monitoring
+33,M,Gastric Bypass,3-6 months,38.0,none,solid food,Protein B12,Routine blood tests
+48,M,Sleeve,3-6 months,35.5,vomiting,solid food,Iron B12,Chew food well
+43,F,Gastric Bypass,1-3 months,39.3,nausea,soft food,Iron B12,Avoid sugar
+25,M,Gastric Bypass,3-6 months,33.5,nausea,solid food,Protein,Hydration monitoring
+57,M,Sleeve,3-6 months,49.2,vomiting,solid food,Protein Calcium,Chew food well
+64,M,Sleeve,6+ months,44.8,hair loss,balanced diet,Multivitamin,Routine blood tests
+37,M,Sleeve,3-6 months,30.0,acid reflux,solid food,Multivitamin,Routine blood tests
+31,M,Sleeve,2-4 weeks,29.1,hair loss,pureed food,Multivitamin,Routine blood tests
+52,F,Sleeve,1-3 months,37.5,fatigue,soft food,Protein Iron,Chew food well
+41,F,Gastric Bypass,3-6 months,29.1,dumping,solid food,Iron B12,Hydration monitoring
+42,M,Mini Bypass,1-7 days,34.2,nausea,clear liquids,Protein B12,Small frequent meals
+41,M,Mini Bypass,3-6 months,48.7,vomiting,solid food,Protein B12,Regular physical activity
+20,F,Sleeve,6+ months,31.0,constipation,balanced diet,Protein Calcium,Routine blood tests
+47,F,Mini Bypass,6+ months,47.6,vomiting,balanced diet,Iron B12,Chew food well
+43,M,Mini Bypass,2-4 weeks,35.4,hair loss,pureed food,Protein Iron,Hydration monitoring
+19,M,Gastric Bypass,3-6 months,42.8,acid reflux,solid food,Multivitamin,Hydration monitoring
+56,M,Gastric Bypass,1-7 days,49.3,dumping,clear liquids,Protein Iron,Eat slowly
+48,F,Mini Bypass,6+ months,41.8,acid reflux,balanced diet,Protein B12,Avoid sugar
+54,F,Sleeve,1-7 days,28.4,constipation,clear liquids,Calcium D vitamin,Increase protein intake
+62,F,Gastric Bypass,3-6 months,39.0,hair loss,solid food,Protein Calcium,Eat slowly
+51,F,Mini Bypass,2-4 weeks,35.2,hair loss,pureed food,Multivitamin,Regular physical activity
+29,M,Mini Bypass,1-3 months,35.5,constipation,soft food,Protein Iron,Hydration monitoring
+48,F,Sleeve,6+ months,34.1,fatigue,balanced diet,Protein B12,Hydration monitoring
+63,F,Mini Bypass,1-3 months,43.5,constipation,soft food,Calcium D vitamin,Chew food well
+64,M,Gastric Bypass,6+ months,30.7,acid reflux,balanced diet,Calcium D vitamin,Chew food well
+36,F,Gastric Bypass,2-4 weeks,49.0,nausea,pureed food,Iron B12,Routine blood tests
+48,F,Sleeve,1-3 months,46.2,fatigue,soft food,Multivitamin,Hydration monitoring
+24,F,Sleeve,2-4 weeks,29.1,dumping,pureed food,Protein Iron,Avoid sugar
+24,M,Gastric Bypass,1-7 days,43.8,nausea,clear liquids,Protein Iron,Increase protein intake
+53,F,Gastric Bypass,1-7 days,42.4,hair loss,clear liquids,Calcium D vitamin,Avoid sugar
+38,M,Mini Bypass,1-3 months,29.3,nausea,soft food,Protein Iron,Avoid sugar
+64,F,Sleeve,6+ months,37.2,vomiting,balanced diet,Protein,Regular physical activity
+29,M,Sleeve,3-6 months,28.2,nausea,solid food,Iron B12,Hydration monitoring
+59,M,Sleeve,3-6 months,46.7,hair loss,solid food,Iron B12,Avoid sugar
+39,F,Mini Bypass,1-7 days,38.1,fatigue,clear liquids,Protein Iron,Increase protein intake
+39,M,Mini Bypass,1-7 days,42.8,dumping,clear liquids,Protein B12,Regular physical activity
+50,M,Sleeve,3-6 months,36.8,nausea,solid food,Protein B12,Increase protein intake
+38,F,Sleeve,3-6 months,33.7,dumping,solid food,Calcium D vitamin,Hydration monitoring
+37,F,Gastric Bypass,1-3 months,42.4,dumping,soft food,Protein,Small frequent meals
+37,F,Gastric Bypass,3-6 months,43.1,fatigue,solid food,Protein Iron,Small frequent meals
+41,F,Sleeve,1-3 months,49.1,hair loss,soft food,Protein B12,Routine blood tests
+41,M,Mini Bypass,6+ months,40.1,hair loss,balanced diet,Protein Calcium,Avoid sugar
+61,F,Mini Bypass,2-4 weeks,37.8,constipation,pureed food,Protein,Small frequent meals
+53,F,Mini Bypass,1-7 days,39.8,vomiting,clear liquids,Iron B12,Routine blood tests
+61,F,Mini Bypass,1-7 days,40.8,nausea,clear liquids,Multivitamin,Routine blood tests
+47,F,Mini Bypass,1-7 days,37.1,none,clear liquids,Multivitamin,Routine blood tests
+64,F,Gastric Bypass,1-3 months,33.6,none,soft food,Protein Iron,Avoid sugar
+22,F,Gastric Bypass,6+ months,35.6,nausea,balanced diet,Multivitamin,Eat slowly
+48,F,Gastric Bypass,1-7 days,37.0,vomiting,clear liquids,Protein Calcium,Regular physical activity
+42,M,Gastric Bypass,1-3 months,36.3,vomiting,soft food,Protein Iron,Chew food well
+29,M,Mini Bypass,1-7 days,30.8,dumping,clear liquids,Protein Calcium,Eat slowly
+37,M,Mini Bypass,1-7 days,43.8,acid reflux,clear liquids,Multivitamin,Regular physical activity
+33,M,Gastric Bypass,2-4 weeks,31.4,dumping,pureed food,Protein Iron,Small frequent meals
+60,M,Mini Bypass,1-7 days,44.9,none,clear liquids,Protein B12,Avoid sugar
+24,F,Gastric Bypass,1-7 days,41.2,none,clear liquids,Protein B12,Eat slowly
+46,F,Mini Bypass,3-6 months,32.8,none,solid food,Protein B12,Hydration monitoring
+64,M,Mini Bypass,2-4 weeks,41.2,constipation,pureed food,Protein B12,Hydration monitoring
+60,F,Gastric Bypass,2-4 weeks,34.6,none,pureed food,Multivitamin,Increase protein intake
+53,M,Sleeve,3-6 months,49.4,acid reflux,solid food,Protein Calcium,Chew food well
+44,F,Gastric Bypass,3-6 months,36.3,hair loss,solid food,Protein B12,Avoid sugar
+63,F,Gastric Bypass,1-3 months,48.1,acid reflux,soft food,Calcium D vitamin,Increase protein intake
+33,M,Sleeve,3-6 months,35.3,nausea,solid food,Calcium D vitamin,Chew food well
+52,F,Sleeve,1-7 days,33.9,none,clear liquids,Protein Calcium,Small frequent meals
+55,F,Gastric Bypass,2-4 weeks,32.6,constipation,pureed food,Iron B12,Eat slowly
+30,F,Mini Bypass,2-4 weeks,50.0,hair loss,pureed food,Protein B12,Avoid sugar
+33,M,Gastric Bypass,3-6 months,36.4,constipation,solid food,Iron B12,Hydration monitoring
+50,M,Gastric Bypass,1-3 months,30.2,hair loss,soft food,Protein Calcium,Chew food well
+41,M,Gastric Bypass,2-4 weeks,29.0,dumping,pureed food,Protein Iron,Increase protein intake
+34,M,Gastric Bypass,1-7 days,31.4,constipation,clear liquids,Protein B12,Regular physical activity
+33,M,Mini Bypass,6+ months,42.4,constipation,balanced diet,Iron B12,Routine blood tests
+47,F,Mini Bypass,3-6 months,45.5,vomiting,solid food,Protein B12,Routine blood tests
+52,F,Mini Bypass,2-4 weeks,28.7,nausea,pureed food,Protein Calcium,Eat slowly
+44,F,Mini Bypass,1-7 days,33.1,vomiting,clear liquids,Protein,Avoid sugar
+47,M,Sleeve,6+ months,41.6,hair loss,balanced diet,Protein Iron,Routine blood tests
+18,M,Sleeve,1-7 days,28.4,fatigue,clear liquids,Multivitamin,Hydration monitoring
+50,M,Sleeve,1-7 days,30.4,nausea,clear liquids,Multivitamin,Increase protein intake
+30,M,Gastric Bypass,2-4 weeks,33.9,acid reflux,pureed food,Protein,Chew food well
+47,F,Mini Bypass,3-6 months,33.0,nausea,solid food,Protein Iron,Eat slowly
+43,M,Gastric Bypass,1-7 days,40.2,none,clear liquids,Protein Iron,Eat slowly
+23,M,Gastric Bypass,2-4 weeks,42.2,constipation,pureed food,Multivitamin,Small frequent meals
+20,F,Sleeve,6+ months,47.8,hair loss,balanced diet,Iron B12,Eat slowly
+61,M,Mini Bypass,1-7 days,40.4,none,clear liquids,Protein B12,Chew food well
+31,F,Mini Bypass,1-7 days,46.1,nausea,clear liquids,Iron B12,Increase protein intake
+33,M,Mini Bypass,6+ months,47.7,constipation,balanced diet,Calcium D vitamin,Increase protein intake
+50,M,Sleeve,1-7 days,30.1,dumping,clear liquids,Protein Calcium,Small frequent meals
+56,M,Gastric Bypass,1-3 months,28.7,fatigue,soft food,Protein Calcium,Routine blood tests
+32,M,Mini Bypass,3-6 months,48.7,acid reflux,solid food,Protein B12,Regular physical activity
+57,M,Sleeve,1-7 days,43.7,nausea,clear liquids,Iron B12,Increase protein intake
+63,F,Mini Bypass,3-6 months,36.6,constipation,solid food,Protein,Small frequent meals
+37,M,Gastric Bypass,1-7 days,44.7,nausea,clear liquids,Protein B12,Small frequent meals
+45,M,Mini Bypass,2-4 weeks,40.2,acid reflux,pureed food,Protein,Eat slowly
+40,F,Mini Bypass,1-7 days,41.2,constipation,clear liquids,Protein Calcium,Regular physical activity
+36,M,Gastric Bypass,1-7 days,45.1,dumping,clear liquids,Multivitamin,Increase protein intake
+28,F,Gastric Bypass,3-6 months,34.6,hair loss,solid food,Protein B12,Small frequent meals
+45,M,Gastric Bypass,2-4 weeks,34.6,nausea,pureed food,Iron B12,Hydration monitoring
+64,M,Mini Bypass,2-4 weeks,41.6,hair loss,pureed food,Protein,Increase protein intake
+18,M,Gastric Bypass,1-3 months,46.5,acid reflux,soft food,Protein Calcium,Chew food well
+39,M,Mini Bypass,3-6 months,49.4,vomiting,solid food,Iron B12,Chew food well
+62,F,Gastric Bypass,6+ months,34.9,acid reflux,balanced diet,Iron B12,Hydration monitoring
+54,F,Gastric Bypass,3-6 months,36.3,acid reflux,solid food,Iron B12,Small frequent meals
+30,F,Mini Bypass,6+ months,44.9,none,balanced diet,Protein Iron,Routine blood tests
+46,M,Mini Bypass,2-4 weeks,29.5,acid reflux,pureed food,Protein Iron,Routine blood tests
+58,M,Sleeve,2-4 weeks,33.6,vomiting,pureed food,Protein Iron,Regular physical activity
+22,M,Mini Bypass,3-6 months,38.5,acid reflux,solid food,Multivitamin,Regular physical activity
+20,M,Mini Bypass,6+ months,47.7,nausea,balanced diet,Protein,Avoid sugar
+28,F,Mini Bypass,1-3 months,49.6,acid reflux,soft food,Protein Calcium,Chew food well
+24,F,Sleeve,3-6 months,33.7,dumping,solid food,Calcium D vitamin,Chew food well
+47,F,Gastric Bypass,3-6 months,49.9,hair loss,solid food,Protein,Hydration monitoring
+23,F,Mini Bypass,3-6 months,31.1,fatigue,solid food,Iron B12,Routine blood tests
+51,M,Gastric Bypass,2-4 weeks,38.5,hair loss,pureed food,Protein Iron,Routine blood tests
+22,M,Sleeve,1-3 months,45.8,nausea,soft food,Protein,Chew food well
+61,F,Mini Bypass,1-7 days,33.4,vomiting,clear liquids,Multivitamin,Increase protein intake
+53,M,Gastric Bypass,1-3 months,33.1,acid reflux,soft food,Protein Iron,Increase protein intake
+58,M,Gastric Bypass,2-4 weeks,28.6,dumping,pureed food,Calcium D vitamin,Regular physical activity
+18,F,Sleeve,3-6 months,34.1,nausea,solid food,Multivitamin,Small frequent meals
+29,M,Gastric Bypass,6+ months,32.3,nausea,balanced diet,Iron B12,Routine blood tests
+58,M,Mini Bypass,6+ months,36.6,acid reflux,balanced diet,Multivitamin,Small frequent meals
+40,M,Mini Bypass,1-3 months,31.8,fatigue,soft food,Multivitamin,Small frequent meals
+38,F,Sleeve,2-4 weeks,34.7,vomiting,pureed food,Iron B12,Increase protein intake
+42,M,Mini Bypass,6+ months,31.0,acid reflux,balanced diet,Calcium D vitamin,Increase protein intake
+58,F,Mini Bypass,3-6 months,31.7,fatigue,solid food,Protein B12,Increase protein intake
+46,F,Gastric Bypass,1-3 months,48.9,hair loss,soft food,Protein B12,Avoid sugar
+53,M,Gastric Bypass,3-6 months,43.1,acid reflux,solid food,Protein Iron,Routine blood tests
+28,F,Mini Bypass,3-6 months,28.7,dumping,solid food,Iron B12,Eat slowly
+32,M,Sleeve,1-3 months,45.2,hair loss,soft food,Multivitamin,Small frequent meals
+25,M,Mini Bypass,6+ months,46.1,constipation,balanced diet,Multivitamin,Eat slowly
+52,F,Gastric Bypass,3-6 months,30.3,dumping,solid food,Iron B12,Eat slowly
+34,M,Sleeve,3-6 months,37.7,nausea,solid food,Protein Calcium,Avoid sugar
+55,M,Mini Bypass,2-4 weeks,41.4,acid reflux,pureed food,Protein B12,Increase protein intake
+31,F,Mini Bypass,2-4 weeks,35.7,fatigue,pureed food,Multivitamin,Increase protein intake
+63,M,Gastric Bypass,1-3 months,40.6,nausea,soft food,Protein B12,Regular physical activity
+35,F,Mini Bypass,1-7 days,47.1,dumping,clear liquids,Protein B12,Chew food well
+61,M,Gastric Bypass,2-4 weeks,31.1,fatigue,pureed food,Protein Iron,Regular physical activity
+46,F,Mini Bypass,3-6 months,45.5,nausea,solid food,Calcium D vitamin,Hydration monitoring
+47,M,Gastric Bypass,1-3 months,40.8,nausea,soft food,Protein Iron,Routine blood tests
+22,M,Sleeve,1-3 months,49.3,dumping,soft food,Calcium D vitamin,Hydration monitoring
+36,M,Mini Bypass,1-3 months,40.7,hair loss,soft food,Protein Calcium,Chew food well
+20,F,Mini Bypass,1-7 days,45.2,hair loss,clear liquids,Protein,Small frequent meals
+46,M,Sleeve,2-4 weeks,49.8,acid reflux,pureed food,Protein B12,Increase protein intake
+28,M,Sleeve,1-3 months,42.4,fatigue,soft food,Protein,Chew food well
+21,M,Mini Bypass,2-4 weeks,34.7,dumping,pureed food,Calcium D vitamin,Small frequent meals
+18,F,Gastric Bypass,1-7 days,29.7,dumping,clear liquids,Multivitamin,Routine blood tests
+18,M,Sleeve,1-7 days,49.7,acid reflux,clear liquids,Protein Iron,Increase protein intake
+22,F,Gastric Bypass,3-6 months,30.0,nausea,solid food,Protein,Chew food well
+37,F,Gastric Bypass,1-3 months,45.0,vomiting,soft food,Protein Iron,Increase protein intake
+51,F,Mini Bypass,1-7 days,42.3,hair loss,clear liquids,Iron B12,Avoid sugar
+44,M,Sleeve,2-4 weeks,29.9,nausea,pureed food,Protein B12,Small frequent meals
+64,M,Gastric Bypass,6+ months,49.2,constipation,balanced diet,Protein Calcium,Increase protein intake
+35,F,Sleeve,2-4 weeks,40.2,fatigue,pureed food,Protein Calcium,Eat slowly
+31,F,Mini Bypass,1-3 months,36.6,none,soft food,Protein Calcium,Avoid sugar
+42,F,Sleeve,3-6 months,39.0,nausea,solid food,Multivitamin,Eat slowly
+38,F,Gastric Bypass,1-3 months,46.9,acid reflux,soft food,Iron B12,Increase protein intake
+22,F,Mini Bypass,3-6 months,29.5,fatigue,solid food,Protein B12,Eat slowly
+43,M,Mini Bypass,1-7 days,43.7,acid reflux,clear liquids,Calcium D vitamin,Regular physical activity
+58,F,Gastric Bypass,1-7 days,29.8,nausea,clear liquids,Multivitamin,Avoid sugar
+52,M,Gastric Bypass,2-4 weeks,40.9,nausea,pureed food,Iron B12,Regular physical activity
+21,F,Sleeve,2-4 weeks,48.3,nausea,pureed food,Calcium D vitamin,Eat slowly
+60,F,Sleeve,1-3 months,28.3,vomiting,soft food,Protein Iron,Eat slowly
+49,M,Mini Bypass,2-4 weeks,39.4,fatigue,pureed food,Protein B12,Chew food well
+35,F,Sleeve,2-4 weeks,35.4,acid reflux,pureed food,Iron B12,Small frequent meals
+63,F,Gastric Bypass,1-3 months,38.0,constipation,soft food,Protein,Routine blood tests
+28,M,Sleeve,6+ months,33.6,nausea,balanced diet,Multivitamin,Small frequent meals
+50,F,Sleeve,2-4 weeks,46.9,none,pureed food,Protein B12,Eat slowly
+41,M,Sleeve,3-6 months,31.9,none,solid food,Multivitamin,Regular physical activity
+38,F,Gastric Bypass,2-4 weeks,48.1,constipation,pureed food,Iron B12,Small frequent meals
+41,F,Mini Bypass,6+ months,42.8,none,balanced diet,Protein B12,Avoid sugar
+20,M,Sleeve,6+ months,47.3,fatigue,balanced diet,Protein Calcium,Hydration monitoring
+23,M,Sleeve,1-3 months,36.1,fatigue,soft food,Multivitamin,Hydration monitoring
+33,M,Gastric Bypass,6+ months,41.0,hair loss,balanced diet,Protein Calcium,Avoid sugar
+33,F,Sleeve,6+ months,48.5,none,balanced diet,Protein B12,Chew food well
+39,F,Mini Bypass,1-7 days,36.3,fatigue,clear liquids,Protein,Avoid sugar
+33,M,Gastric Bypass,6+ months,49.1,vomiting,balanced diet,Protein Iron,Hydration monitoring
+20,F,Mini Bypass,1-7 days,37.1,constipation,clear liquids,Calcium D vitamin,Small frequent meals
+24,F,Mini Bypass,6+ months,46.0,nausea,balanced diet,Multivitamin,Eat slowly
+60,F,Sleeve,3-6 months,34.4,constipation,solid food,Protein Calcium,Regular physical activity
+38,M,Gastric Bypass,1-3 months,33.1,dumping,soft food,Protein B12,Small frequent meals
+24,F,Gastric Bypass,2-4 weeks,38.3,acid reflux,pureed food,Protein,Chew food well
+46,M,Gastric Bypass,2-4 weeks,33.8,nausea,pureed food,Protein,Increase protein intake
+63,F,Sleeve,1-3 months,46.4,constipation,soft food,Protein B12,Small frequent meals
+40,M,Mini Bypass,2-4 weeks,29.1,fatigue,pureed food,Iron B12,Increase protein intake
+43,M,Mini Bypass,1-7 days,44.5,dumping,clear liquids,Protein,Routine blood tests
+26,F,Sleeve,1-7 days,29.4,dumping,clear liquids,Protein B12,Avoid sugar
+41,F,Mini Bypass,3-6 months,40.9,nausea,solid food,Protein,Small frequent meals
+59,M,Sleeve,2-4 weeks,30.0,constipation,pureed food,Protein,Eat slowly
+21,F,Mini Bypass,3-6 months,37.5,acid reflux,solid food,Calcium D vitamin,Eat slowly
+61,M,Sleeve,3-6 months,35.8,vomiting,solid food,Iron B12,Hydration monitoring
+27,F,Mini Bypass,3-6 months,41.6,dumping,solid food,Protein Iron,Hydration monitoring
+44,M,Sleeve,3-6 months,29.9,acid reflux,solid food,Protein B12,Regular physical activity
+59,F,Mini Bypass,2-4 weeks,49.9,none,pureed food,Calcium D vitamin,Chew food well
+52,M,Gastric Bypass,3-6 months,48.1,constipation,solid food,Calcium D vitamin,Hydration monitoring
+19,M,Mini Bypass,2-4 weeks,32.8,fatigue,pureed food,Protein,Routine blood tests
+40,F,Sleeve,6+ months,30.2,dumping,balanced diet,Iron B12,Eat slowly
+54,M,Gastric Bypass,2-4 weeks,48.6,vomiting,pureed food,Protein B12,Avoid sugar
+38,M,Mini Bypass,6+ months,28.6,constipation,balanced diet,Multivitamin,Increase protein intake
+30,M,Mini Bypass,6+ months,34.8,hair loss,balanced diet,Protein,Small frequent meals
+32,F,Sleeve,1-7 days,39.6,none,clear liquids,Iron B12,Avoid sugar
+39,F,Gastric Bypass,2-4 weeks,29.3,vomiting,pureed food,Multivitamin,Increase protein intake
+51,M,Sleeve,1-7 days,36.2,acid reflux,clear liquids,Multivitamin,Small frequent meals
+37,M,Sleeve,1-3 months,49.5,acid reflux,soft food,Protein Calcium,Routine blood tests
+29,M,Sleeve,1-3 months,42.6,vomiting,soft food,Calcium D vitamin,Hydration monitoring
+26,F,Mini Bypass,1-3 months,28.0,acid reflux,soft food,Protein Calcium,Eat slowly
+56,M,Mini Bypass,2-4 weeks,32.9,nausea,pureed food,Calcium D vitamin,Increase protein intake
+22,F,Gastric Bypass,1-3 months,49.6,vomiting,soft food,Protein Iron,Small frequent meals
+46,F,Gastric Bypass,1-3 months,32.6,nausea,soft food,Iron B12,Hydration monitoring
+64,F,Sleeve,1-7 days,36.5,acid reflux,clear liquids,Protein B12,Regular physical activity
+42,M,Mini Bypass,3-6 months,36.3,hair loss,solid food,Protein Calcium,Avoid sugar
+46,F,Sleeve,2-4 weeks,34.5,constipation,pureed food,Iron B12,Small frequent meals
+39,F,Gastric Bypass,1-7 days,31.5,nausea,clear liquids,Multivitamin,Small frequent meals
+56,M,Mini Bypass,1-3 months,28.7,vomiting,soft food,Multivitamin,Regular physical activity
+21,F,Gastric Bypass,2-4 weeks,32.5,dumping,pureed food,Calcium D vitamin,Hydration monitoring
+37,F,Sleeve,1-3 months,29.1,hair loss,soft food,Protein B12,Eat slowly
+18,M,Sleeve,1-3 months,34.5,hair loss,soft food,Protein B12,Small frequent meals
+31,F,Mini Bypass,1-7 days,34.4,nausea,clear liquids,Calcium D vitamin,Small frequent meals
+43,M,Gastric Bypass,1-3 months,47.7,fatigue,soft food,Protein,Regular physical activity
+41,M,Gastric Bypass,2-4 weeks,32.1,none,pureed food,Iron B12,Routine blood tests
+34,F,Gastric Bypass,3-6 months,40.4,vomiting,solid food,Protein Calcium,Small frequent meals
+60,M,Mini Bypass,1-7 days,37.1,dumping,clear liquids,Multivitamin,Eat slowly
+51,M,Mini Bypass,3-6 months,43.1,hair loss,solid food,Multivitamin,Avoid sugar
+37,F,Gastric Bypass,3-6 months,47.9,none,solid food,Multivitamin,Increase protein intake
+46,F,Sleeve,1-7 days,49.4,dumping,clear liquids,Protein B12,Eat slowly
+23,M,Sleeve,3-6 months,49.9,vomiting,solid food,Protein Calcium,Hydration monitoring
+64,F,Sleeve,1-3 months,36.5,acid reflux,soft food,Multivitamin,Chew food well
+51,M,Sleeve,1-3 months,45.3,acid reflux,soft food,Protein,Regular physical activity
+27,F,Sleeve,2-4 weeks,40.4,nausea,pureed food,Protein Calcium,Hydration monitoring
+40,M,Gastric Bypass,6+ months,36.4,hair loss,balanced diet,Multivitamin,Routine blood tests
+29,M,Gastric Bypass,1-7 days,31.2,acid reflux,clear liquids,Protein,Regular physical activity
+62,F,Sleeve,1-3 months,44.4,fatigue,soft food,Iron B12,Eat slowly
+37,M,Gastric Bypass,1-3 months,46.5,nausea,soft food,Protein Calcium,Avoid sugar
+37,M,Gastric Bypass,2-4 weeks,33.9,acid reflux,pureed food,Multivitamin,Small frequent meals
+46,F,Gastric Bypass,2-4 weeks,44.3,constipation,pureed food,Protein Calcium,Eat slowly
+28,F,Gastric Bypass,6+ months,43.6,acid reflux,balanced diet,Protein B12,Eat slowly
+30,F,Sleeve,2-4 weeks,33.5,hair loss,pureed food,Protein,Chew food well
+35,M,Gastric Bypass,2-4 weeks,39.1,nausea,pureed food,Protein Iron,Eat slowly
+41,M,Mini Bypass,2-4 weeks,37.8,hair loss,pureed food,Multivitamin,Chew food well
+28,M,Mini Bypass,1-3 months,46.3,nausea,soft food,Iron B12,Eat slowly
+21,F,Mini Bypass,3-6 months,45.2,dumping,solid food,Protein Calcium,Avoid sugar
+61,F,Gastric Bypass,2-4 weeks,42.3,none,pureed food,Protein Calcium,Eat slowly
+26,F,Mini Bypass,3-6 months,45.6,dumping,solid food,Iron B12,Hydration monitoring
+45,M,Gastric Bypass,1-3 months,38.1,dumping,soft food,Calcium D vitamin,Hydration monitoring
+57,M,Mini Bypass,6+ months,30.3,constipation,balanced diet,Multivitamin,Hydration monitoring
+61,F,Gastric Bypass,1-3 months,29.4,fatigue,soft food,Protein Iron,Chew food well
+34,M,Sleeve,1-3 months,31.3,dumping,soft food,Protein,Regular physical activity
+61,F,Mini Bypass,1-3 months,28.6,hair loss,soft food,Iron B12,Hydration monitoring
+43,M,Mini Bypass,3-6 months,28.8,dumping,solid food,Iron B12,Avoid sugar
+58,M,Mini Bypass,6+ months,35.9,fatigue,balanced diet,Protein Calcium,Increase protein intake
+29,M,Sleeve,6+ months,38.4,fatigue,balanced diet,Protein Iron,Increase protein intake
+59,F,Sleeve,1-3 months,35.8,fatigue,soft food,Calcium D vitamin,Chew food well
+34,M,Gastric Bypass,1-3 months,46.7,hair loss,soft food,Protein,Small frequent meals
+30,F,Mini Bypass,3-6 months,36.4,fatigue,solid food,Calcium D vitamin,Eat slowly
+26,F,Gastric Bypass,2-4 weeks,37.0,hair loss,pureed food,Protein B12,Chew food well
+23,M,Gastric Bypass,2-4 weeks,41.9,vomiting,pureed food,Iron B12,Eat slowly
+46,M,Sleeve,1-7 days,44.7,vomiting,clear liquids,Multivitamin,Increase protein intake
+23,F,Mini Bypass,3-6 months,37.5,acid reflux,solid food,Calcium D vitamin,Regular physical activity
+42,F,Sleeve,3-6 months,39.7,constipation,solid food,Protein,Chew food well
+30,F,Mini Bypass,6+ months,28.1,dumping,balanced diet,Protein B12,Chew food well
+26,F,Gastric Bypass,1-3 months,39.1,fatigue,soft food,Protein B12,Small frequent meals
+37,M,Gastric Bypass,1-7 days,44.0,constipation,clear liquids,Calcium D vitamin,Increase protein intake
+49,M,Sleeve,1-3 months,31.6,acid reflux,soft food,Protein,Avoid sugar
+64,F,Sleeve,2-4 weeks,44.1,vomiting,pureed food,Protein,Chew food well
+42,M,Mini Bypass,1-7 days,41.7,none,clear liquids,Protein Iron,Small frequent meals
+21,F,Gastric Bypass,1-7 days,37.8,nausea,clear liquids,Multivitamin,Hydration monitoring
+62,F,Sleeve,3-6 months,43.3,none,solid food,Iron B12,Regular physical activity
+60,M,Mini Bypass,1-7 days,41.3,vomiting,clear liquids,Calcium D vitamin,Small frequent meals
+64,F,Gastric Bypass,6+ months,30.5,nausea,balanced diet,Calcium D vitamin,Avoid sugar
+30,M,Mini Bypass,6+ months,49.4,constipation,balanced diet,Protein Iron,Regular physical activity
+28,F,Mini Bypass,1-3 months,38.9,dumping,soft food,Protein Iron,Routine blood tests
+33,F,Sleeve,1-3 months,42.8,nausea,soft food,Protein Calcium,Routine blood tests
+23,F,Mini Bypass,2-4 weeks,43.9,fatigue,pureed food,Protein Iron,Avoid sugar
+36,M,Gastric Bypass,3-6 months,29.1,vomiting,solid food,Protein Calcium,Eat slowly
+41,M,Gastric Bypass,1-3 months,44.2,nausea,soft food,Protein Calcium,Eat slowly
+26,F,Gastric Bypass,1-7 days,35.9,hair loss,clear liquids,Multivitamin,Hydration monitoring
+41,M,Sleeve,1-7 days,30.5,acid reflux,clear liquids,Calcium D vitamin,Hydration monitoring
+62,M,Gastric Bypass,3-6 months,42.3,vomiting,solid food,Protein,Increase protein intake
+28,F,Gastric Bypass,1-7 days,48.0,hair loss,clear liquids,Protein Calcium,Routine blood tests
+57,M,Gastric Bypass,2-4 weeks,41.4,vomiting,pureed food,Calcium D vitamin,Routine blood tests
+44,M,Sleeve,1-7 days,29.4,constipation,clear liquids,Protein,Avoid sugar
+51,F,Gastric Bypass,1-3 months,42.6,dumping,soft food,Calcium D vitamin,Chew food well
+27,F,Sleeve,3-6 months,42.2,vomiting,solid food,Multivitamin,Routine blood tests
+28,F,Gastric Bypass,3-6 months,35.1,constipation,solid food,Iron B12,Eat slowly
+32,M,Gastric Bypass,6+ months,46.0,nausea,balanced diet,Calcium D vitamin,Routine blood tests
+46,F,Gastric Bypass,6+ months,37.8,nausea,balanced diet,Calcium D vitamin,Eat slowly
+43,M,Sleeve,1-7 days,40.3,none,clear liquids,Protein Calcium,Small frequent meals
+57,M,Mini Bypass,6+ months,40.4,hair loss,balanced diet,Iron B12,Chew food well
+32,M,Gastric Bypass,1-7 days,40.3,hair loss,clear liquids,Protein Iron,Chew food well
+25,F,Mini Bypass,3-6 months,32.9,constipation,solid food,Iron B12,Hydration monitoring
+51,M,Mini Bypass,6+ months,30.3,vomiting,balanced diet,Calcium D vitamin,Increase protein intake
+24,M,Mini Bypass,3-6 months,32.3,nausea,solid food,Protein Calcium,Regular physical activity
+47,F,Mini Bypass,2-4 weeks,35.4,acid reflux,pureed food,Protein,Small frequent meals
+47,F,Gastric Bypass,3-6 months,28.1,none,solid food,Multivitamin,Regular physical activity
+48,F,Mini Bypass,6+ months,40.7,vomiting,balanced diet,Protein,Regular physical activity
+56,M,Mini Bypass,6+ months,47.4,acid reflux,balanced diet,Multivitamin,Avoid sugar
+43,M,Gastric Bypass,1-3 months,38.0,vomiting,soft food,Protein B12,Regular physical activity
+62,M,Mini Bypass,6+ months,40.1,constipation,balanced diet,Protein Iron,Avoid sugar
+31,M,Mini Bypass,2-4 weeks,35.6,vomiting,pureed food,Protein Iron,Increase protein intake
+52,M,Mini Bypass,6+ months,30.5,constipation,balanced diet,Multivitamin,Routine blood tests
+54,M,Mini Bypass,6+ months,44.5,fatigue,balanced diet,Protein Calcium,Regular physical activity
+51,F,Sleeve,1-7 days,36.4,none,clear liquids,Protein Iron,Eat slowly
+35,F,Gastric Bypass,2-4 weeks,43.0,vomiting,pureed food,Protein Calcium,Eat slowly
+31,F,Gastric Bypass,1-3 months,45.9,nausea,soft food,Multivitamin,Avoid sugar
+42,F,Mini Bypass,6+ months,45.3,fatigue,balanced diet,Protein Iron,Eat slowly
+42,M,Mini Bypass,3-6 months,34.9,none,solid food,Protein,Hydration monitoring
+57,M,Sleeve,2-4 weeks,48.1,constipation,pureed food,Protein Calcium,Avoid sugar
+36,M,Sleeve,2-4 weeks,49.6,nausea,pureed food,Protein B12,Increase protein intake
+25,M,Sleeve,6+ months,37.4,fatigue,balanced diet,Protein B12,Increase protein intake
+34,F,Gastric Bypass,6+ months,38.3,vomiting,balanced diet,Protein,Increase protein intake
+56,F,Mini Bypass,1-3 months,41.5,fatigue,soft food,Calcium D vitamin,Chew food well
+63,M,Mini Bypass,1-7 days,32.8,vomiting,clear liquids,Multivitamin,Small frequent meals
+28,M,Mini Bypass,6+ months,39.8,nausea,balanced diet,Iron B12,Avoid sugar
+60,M,Gastric Bypass,2-4 weeks,35.9,dumping,pureed food,Protein Calcium,Routine blood tests
+59,F,Sleeve,6+ months,42.7,hair loss,balanced diet,Protein B12,Avoid sugar
+61,M,Gastric Bypass,1-7 days,48.2,nausea,clear liquids,Calcium D vitamin,Hydration monitoring
+64,M,Sleeve,6+ months,48.0,constipation,balanced diet,Multivitamin,Routine blood tests
+20,M,Mini Bypass,3-6 months,32.2,nausea,solid food,Protein,Increase protein intake
+52,F,Mini Bypass,6+ months,29.4,dumping,balanced diet,Protein Calcium,Regular physical activity
+31,M,Mini Bypass,1-7 days,46.0,nausea,clear liquids,Protein Iron,Increase protein intake
+47,M,Sleeve,1-7 days,29.9,none,clear liquids,Protein B12,Hydration monitoring
+22,F,Gastric Bypass,6+ months,37.0,hair loss,balanced diet,Protein Iron,Regular physical activity
+38,F,Gastric Bypass,3-6 months,42.8,none,solid food,Protein Iron,Small frequent meals
+20,F,Gastric Bypass,6+ months,48.4,nausea,balanced diet,Iron B12,Hydration monitoring
+23,M,Gastric Bypass,6+ months,36.4,none,balanced diet,Calcium D vitamin,Increase protein intake
+32,F,Mini Bypass,6+ months,36.6,fatigue,balanced diet,Protein Iron,Increase protein intake
+61,M,Sleeve,1-3 months,40.2,vomiting,soft food,Protein,Eat slowly
+54,M,Mini Bypass,1-7 days,40.0,nausea,clear liquids,Iron B12,Avoid sugar
+31,M,Mini Bypass,1-3 months,46.7,vomiting,soft food,Protein B12,Increase protein intake
+57,M,Sleeve,2-4 weeks,30.5,none,pureed food,Protein Calcium,Routine blood tests
+22,M,Mini Bypass,6+ months,29.5,nausea,balanced diet,Protein B12,Routine blood tests
+40,F,Mini Bypass,1-3 months,42.4,nausea,soft food,Iron B12,Small frequent meals
+38,M,Gastric Bypass,2-4 weeks,35.2,fatigue,pureed food,Protein Iron,Increase protein intake
+54,M,Gastric Bypass,6+ months,49.1,vomiting,balanced diet,Protein,Chew food well
+32,M,Gastric Bypass,2-4 weeks,46.5,vomiting,pureed food,Protein Iron,Chew food well
+47,M,Gastric Bypass,3-6 months,45.0,hair loss,solid food,Multivitamin,Small frequent meals
+59,F,Gastric Bypass,2-4 weeks,46.9,vomiting,pureed food,Multivitamin,Avoid sugar
+64,F,Mini Bypass,1-3 months,29.7,none,soft food,Protein Calcium,Eat slowly
+55,M,Mini Bypass,6+ months,32.7,none,balanced diet,Multivitamin,Hydration monitoring
+52,M,Mini Bypass,6+ months,45.1,constipation,balanced diet,Calcium D vitamin,Avoid sugar
+64,M,Sleeve,6+ months,38.2,nausea,balanced diet,Calcium D vitamin,Chew food well
+18,F,Mini Bypass,6+ months,43.1,vomiting,balanced diet,Calcium D vitamin,Increase protein intake
+54,F,Mini Bypass,2-4 weeks,44.1,constipation,pureed food,Protein,Avoid sugar
+32,F,Gastric Bypass,3-6 months,36.1,none,solid food,Protein Iron,Avoid sugar
+41,M,Gastric Bypass,6+ months,48.2,none,balanced diet,Protein,Chew food well
+63,M,Mini Bypass,1-7 days,33.8,vomiting,clear liquids,Calcium D vitamin,Regular physical activity
+55,F,Mini Bypass,1-3 months,33.5,dumping,soft food,Multivitamin,Regular physical activity
+40,M,Gastric Bypass,1-3 months,47.5,none,soft food,Multivitamin,Increase protein intake
+28,F,Sleeve,3-6 months,39.3,fatigue,solid food,Protein B12,Increase protein intake
+28,M,Mini Bypass,2-4 weeks,43.8,nausea,pureed food,Protein Iron,Avoid sugar
+39,F,Gastric Bypass,3-6 months,42.9,hair loss,solid food,Protein B12,Increase protein intake
+19,F,Sleeve,3-6 months,30.8,vomiting,solid food,Protein B12,Eat slowly
+27,F,Sleeve,6+ months,33.7,vomiting,balanced diet,Multivitamin,Regular physical activity
+54,F,Mini Bypass,6+ months,44.0,fatigue,balanced diet,Protein,Avoid sugar
+56,M,Gastric Bypass,3-6 months,31.8,acid reflux,solid food,Multivitamin,Increase protein intake
+29,M,Sleeve,6+ months,43.9,constipation,balanced diet,Calcium D vitamin,Small frequent meals
+42,M,Sleeve,2-4 weeks,30.4,dumping,pureed food,Multivitamin,Regular physical activity
+56,F,Sleeve,2-4 weeks,38.5,none,pureed food,Protein Calcium,Small frequent meals
+48,F,Mini Bypass,1-7 days,39.9,none,clear liquids,Protein Calcium,Regular physical activity
+44,M,Sleeve,6+ months,43.3,acid reflux,balanced diet,Protein B12,Routine blood tests
+40,F,Gastric Bypass,3-6 months,30.9,hair loss,solid food,Protein Calcium,Avoid sugar
+36,M,Gastric Bypass,1-7 days,32.2,none,clear liquids,Multivitamin,Small frequent meals
+18,M,Mini Bypass,6+ months,32.5,constipation,balanced diet,Calcium D vitamin,Chew food well
+27,M,Mini Bypass,1-7 days,40.9,fatigue,clear liquids,Protein Calcium,Regular physical activity
+41,M,Mini Bypass,6+ months,36.7,dumping,balanced diet,Calcium D vitamin,Routine blood tests
+41,M,Gastric Bypass,2-4 weeks,49.7,constipation,pureed food,Protein Calcium,Regular physical activity
+60,F,Mini Bypass,2-4 weeks,33.1,vomiting,pureed food,Protein,Avoid sugar
+43,M,Mini Bypass,6+ months,41.5,none,balanced diet,Protein B12,Regular physical activity
+23,F,Gastric Bypass,1-7 days,48.4,acid reflux,clear liquids,Protein,Small frequent meals
+32,M,Sleeve,1-3 months,41.4,acid reflux,soft food,Calcium D vitamin,Hydration monitoring
+21,F,Mini Bypass,6+ months,38.9,none,balanced diet,Protein B12,Hydration monitoring
+20,F,Mini Bypass,2-4 weeks,31.7,none,pureed food,Iron B12,Avoid sugar
+28,F,Gastric Bypass,1-7 days,45.2,constipation,clear liquids,Protein Iron,Regular physical activity
+55,F,Mini Bypass,3-6 months,28.3,nausea,solid food,Protein,Hydration monitoring
+55,M,Gastric Bypass,6+ months,49.2,fatigue,balanced diet,Protein B12,Avoid sugar
+43,F,Gastric Bypass,3-6 months,31.9,nausea,solid food,Multivitamin,Small frequent meals
+36,M,Sleeve,6+ months,45.7,fatigue,balanced diet,Multivitamin,Hydration monitoring
+42,M,Sleeve,3-6 months,44.7,hair loss,solid food,Protein Iron,Routine blood tests
+19,M,Sleeve,6+ months,33.7,acid reflux,balanced diet,Protein Iron,Avoid sugar
+38,M,Gastric Bypass,2-4 weeks,39.4,none,pureed food,Protein Iron,Hydration monitoring
+36,F,Gastric Bypass,2-4 weeks,42.8,constipation,pureed food,Protein,Increase protein intake
+38,M,Sleeve,3-6 months,47.7,fatigue,solid food,Protein B12,Avoid sugar
+30,F,Mini Bypass,3-6 months,33.3,fatigue,solid food,Protein B12,Avoid sugar
+33,M,Sleeve,2-4 weeks,45.1,nausea,pureed food,Protein,Routine blood tests
+18,F,Gastric Bypass,6+ months,36.2,constipation,balanced diet,Calcium D vitamin,Hydration monitoring
+29,M,Gastric Bypass,3-6 months,32.9,vomiting,solid food,Protein,Regular physical activity
+52,F,Mini Bypass,3-6 months,35.6,vomiting,solid food,Calcium D vitamin,Small frequent meals
+47,M,Mini Bypass,6+ months,28.2,dumping,balanced diet,Calcium D vitamin,Small frequent meals
+41,M,Sleeve,1-3 months,40.1,dumping,soft food,Iron B12,Routine blood tests
+39,M,Sleeve,6+ months,39.0,dumping,balanced diet,Calcium D vitamin,Chew food well
+43,M,Gastric Bypass,1-3 months,32.0,vomiting,soft food,Multivitamin,Avoid sugar
+64,M,Sleeve,1-7 days,40.2,acid reflux,clear liquids,Protein B12,Increase protein intake
+48,F,Sleeve,2-4 weeks,37.3,vomiting,pureed food,Protein Calcium,Chew food well
+37,M,Mini Bypass,3-6 months,46.9,none,solid food,Calcium D vitamin,Small frequent meals
+21,F,Gastric Bypass,2-4 weeks,38.5,nausea,pureed food,Calcium D vitamin,Chew food well
+41,M,Mini Bypass,1-3 months,40.3,fatigue,soft food,Iron B12,Eat slowly
+25,M,Mini Bypass,3-6 months,49.2,dumping,solid food,Multivitamin,Increase protein intake
+40,M,Mini Bypass,1-3 months,39.2,hair loss,soft food,Protein,Regular physical activity
+36,M,Mini Bypass,6+ months,49.0,vomiting,balanced diet,Protein Iron,Chew food well
+58,M,Sleeve,3-6 months,29.7,constipation,solid food,Protein B12,Chew food well
+59,M,Mini Bypass,1-3 months,33.9,acid reflux,soft food,Iron B12,Routine blood tests
+55,M,Gastric Bypass,1-3 months,31.7,none,soft food,Protein B12,Avoid sugar
+62,F,Sleeve,1-3 months,31.7,nausea,soft food,Protein,Small frequent meals
+53,F,Sleeve,3-6 months,45.0,nausea,solid food,Protein,Hydration monitoring
+27,F,Mini Bypass,6+ months,48.5,acid reflux,balanced diet,Iron B12,Avoid sugar
+36,M,Mini Bypass,2-4 weeks,30.8,vomiting,pureed food,Protein,Eat slowly
+38,M,Gastric Bypass,1-3 months,49.4,fatigue,soft food,Multivitamin,Routine blood tests
+62,F,Mini Bypass,2-4 weeks,41.1,acid reflux,pureed food,Multivitamin,Hydration monitoring
+48,F,Sleeve,1-3 months,37.7,constipation,soft food,Calcium D vitamin,Hydration monitoring
+37,F,Sleeve,2-4 weeks,39.5,vomiting,pureed food,Iron B12,Hydration monitoring
+52,F,Mini Bypass,3-6 months,48.3,hair loss,solid food,Iron B12,Eat slowly
+36,F,Sleeve,3-6 months,40.1,dumping,solid food,Calcium D vitamin,Regular physical activity
+33,F,Mini Bypass,3-6 months,44.2,acid reflux,solid food,Protein Calcium,Regular physical activity
+34,F,Gastric Bypass,2-4 weeks,41.8,fatigue,pureed food,Iron B12,Hydration monitoring
+30,F,Sleeve,3-6 months,31.0,nausea,solid food,Protein Iron,Routine blood tests
+46,M,Mini Bypass,6+ months,41.7,dumping,balanced diet,Iron B12,Eat slowly
+21,F,Sleeve,2-4 weeks,49.4,fatigue,pureed food,Iron B12,Increase protein intake
+64,F,Sleeve,3-6 months,30.0,none,solid food,Calcium D vitamin,Avoid sugar
+44,M,Gastric Bypass,1-3 months,50.0,hair loss,soft food,Protein Iron,Eat slowly
+23,F,Sleeve,1-3 months,33.9,acid reflux,soft food,Protein,Routine blood tests
+30,M,Gastric Bypass,2-4 weeks,46.2,nausea,pureed food,Protein Calcium,Avoid sugar
+46,F,Mini Bypass,3-6 months,49.9,dumping,solid food,Calcium D vitamin,Small frequent meals
+60,F,Gastric Bypass,6+ months,36.6,fatigue,balanced diet,Iron B12,Increase protein intake
+53,F,Gastric Bypass,1-7 days,38.6,fatigue,clear liquids,Protein B12,Chew food well
+60,F,Sleeve,1-7 days,33.2,acid reflux,clear liquids,Iron B12,Eat slowly
+35,F,Gastric Bypass,2-4 weeks,45.4,none,pureed food,Protein,Routine blood tests
+27,M,Sleeve,6+ months,33.5,hair loss,balanced diet,Protein,Chew food well
+21,M,Mini Bypass,1-7 days,31.4,nausea,clear liquids,Protein B12,Routine blood tests
+38,M,Gastric Bypass,2-4 weeks,44.1,none,pureed food,Protein Iron,Regular physical activity
+64,F,Gastric Bypass,1-3 months,47.8,hair loss,soft food,Protein Iron,Routine blood tests
+36,M,Sleeve,6+ months,40.5,constipation,balanced diet,Iron B12,Routine blood tests
+56,F,Sleeve,1-3 months,39.7,hair loss,soft food,Iron B12,Hydration monitoring
+41,M,Sleeve,6+ months,45.1,acid reflux,balanced diet,Protein Iron,Increase protein intake
+57,M,Mini Bypass,1-7 days,33.3,nausea,clear liquids,Protein Iron,Regular physical activity
+51,M,Mini Bypass,2-4 weeks,31.4,fatigue,pureed food,Iron B12,Regular physical activity
+25,F,Mini Bypass,1-3 months,42.5,none,soft food,Protein Calcium,Increase protein intake
+20,F,Sleeve,2-4 weeks,38.7,nausea,pureed food,Protein,Regular physical activity
+51,M,Sleeve,3-6 months,36.1,nausea,solid food,Protein,Avoid sugar
+23,M,Mini Bypass,3-6 months,29.3,acid reflux,solid food,Protein Calcium,Chew food well
+57,M,Mini Bypass,1-7 days,28.9,nausea,clear liquids,Protein Calcium,Hydration monitoring
+31,F,Sleeve,1-7 days,44.0,acid reflux,clear liquids,Protein B12,Avoid sugar
+60,F,Mini Bypass,6+ months,41.8,vomiting,balanced diet,Multivitamin,Regular physical activity
+58,M,Mini Bypass,1-7 days,38.1,acid reflux,clear liquids,Protein,Increase protein intake
+53,M,Mini Bypass,2-4 weeks,35.4,vomiting,pureed food,Multivitamin,Routine blood tests
+38,M,Gastric Bypass,1-3 months,37.1,acid reflux,soft food,Protein Calcium,Chew food well
+33,F,Gastric Bypass,6+ months,44.8,fatigue,balanced diet,Iron B12,Routine blood tests
+43,F,Mini Bypass,3-6 months,28.8,fatigue,solid food,Multivitamin,Eat slowly
+26,M,Sleeve,6+ months,34.6,dumping,balanced diet,Protein B12,Chew food well
+62,M,Mini Bypass,1-7 days,39.2,vomiting,clear liquids,Protein,Eat slowly
+40,F,Sleeve,3-6 months,33.8,dumping,solid food,Protein B12,Hydration monitoring
+23,M,Mini Bypass,1-3 months,48.2,nausea,soft food,Protein Iron,Chew food well
+29,M,Mini Bypass,3-6 months,43.5,nausea,solid food,Multivitamin,Hydration monitoring
+64,M,Sleeve,1-7 days,45.2,constipation,clear liquids,Iron B12,Regular physical activity
+25,F,Mini Bypass,3-6 months,42.4,none,solid food,Protein Iron,Regular physical activity
+37,F,Gastric Bypass,1-7 days,39.9,vomiting,clear liquids,Iron B12,Avoid sugar
+21,M,Gastric Bypass,2-4 weeks,44.6,nausea,pureed food,Protein B12,Regular physical activity
+43,F,Sleeve,1-3 months,35.4,hair loss,soft food,Multivitamin,Eat slowly
+43,M,Sleeve,6+ months,36.8,acid reflux,balanced diet,Protein Calcium,Increase protein intake
+48,F,Gastric Bypass,2-4 weeks,36.7,dumping,pureed food,Multivitamin,Avoid sugar
+22,M,Gastric Bypass,2-4 weeks,35.1,nausea,pureed food,Protein,Regular physical activity
+41,M,Sleeve,3-6 months,35.1,none,solid food,Protein Calcium,Hydration monitoring
+40,M,Mini Bypass,2-4 weeks,31.2,none,pureed food,Protein Calcium,Avoid sugar
+61,M,Sleeve,2-4 weeks,44.7,nausea,pureed food,Protein,Eat slowly
+57,F,Gastric Bypass,2-4 weeks,28.3,nausea,pureed food,Iron B12,Routine blood tests
+19,M,Sleeve,3-6 months,44.3,dumping,solid food,Protein B12,Hydration monitoring
+48,F,Mini Bypass,6+ months,43.4,none,balanced diet,Calcium D vitamin,Eat slowly
+28,F,Gastric Bypass,1-3 months,32.4,fatigue,soft food,Protein,Routine blood tests
+22,M,Mini Bypass,1-7 days,34.0,constipation,clear liquids,Protein Calcium,Small frequent meals
+36,M,Sleeve,1-7 days,49.6,nausea,clear liquids,Iron B12,Routine blood tests
+52,F,Sleeve,6+ months,32.4,hair loss,balanced diet,Multivitamin,Eat slowly
+33,M,Gastric Bypass,1-7 days,38.8,vomiting,clear liquids,Protein,Chew food well
+40,M,Sleeve,1-3 months,49.9,fatigue,soft food,Protein Calcium,Eat slowly
+42,F,Mini Bypass,1-3 months,48.9,dumping,soft food,Protein B12,Chew food well
+60,F,Sleeve,3-6 months,44.1,dumping,solid food,Calcium D vitamin,Avoid sugar
+27,M,Gastric Bypass,6+ months,48.0,constipation,balanced diet,Calcium D vitamin,Increase protein intake
+59,F,Mini Bypass,2-4 weeks,39.9,dumping,pureed food,Protein Calcium,Increase protein intake
+62,F,Gastric Bypass,1-3 months,49.9,vomiting,soft food,Protein Iron,Increase protein intake
+22,F,Sleeve,1-3 months,35.0,vomiting,soft food,Protein Iron,Eat slowly
+44,M,Gastric Bypass,1-3 months,37.7,fatigue,soft food,Protein B12,Avoid sugar
+26,F,Sleeve,1-7 days,44.8,fatigue,clear liquids,Multivitamin,Avoid sugar
+32,F,Mini Bypass,6+ months,28.6,nausea,balanced diet,Protein Iron,Routine blood tests
+50,M,Mini Bypass,2-4 weeks,42.3,vomiting,pureed food,Protein Calcium,Regular physical activity
+48,F,Sleeve,3-6 months,32.3,none,solid food,Calcium D vitamin,Eat slowly
+44,F,Mini Bypass,1-3 months,42.8,dumping,soft food,Protein Calcium,Avoid sugar
+29,M,Mini Bypass,1-7 days,38.8,constipation,clear liquids,Protein Calcium,Routine blood tests
+45,M,Sleeve,2-4 weeks,41.4,acid reflux,pureed food,Protein Iron,Chew food well
+57,F,Mini Bypass,3-6 months,30.4,hair loss,solid food,Protein Calcium,Eat slowly
+51,M,Mini Bypass,2-4 weeks,28.9,acid reflux,pureed food,Multivitamin,Eat slowly
+36,M,Gastric Bypass,2-4 weeks,47.5,fatigue,pureed food,Calcium D vitamin,Increase protein intake
+36,F,Mini Bypass,3-6 months,39.4,vomiting,solid food,Calcium D vitamin,Routine blood tests
+64,F,Sleeve,1-7 days,45.1,vomiting,clear liquids,Calcium D vitamin,Regular physical activity
+46,F,Sleeve,1-3 months,38.0,dumping,soft food,Calcium D vitamin,Small frequent meals
+38,F,Mini Bypass,1-3 months,44.1,nausea,soft food,Protein,Routine blood tests
+23,M,Mini Bypass,1-3 months,45.4,vomiting,soft food,Calcium D vitamin,Regular physical activity
+28,M,Mini Bypass,1-7 days,47.2,vomiting,clear liquids,Protein B12,Increase protein intake
+63,F,Gastric Bypass,2-4 weeks,34.8,hair loss,pureed food,Iron B12,Increase protein intake
+26,F,Sleeve,1-7 days,41.7,fatigue,clear liquids,Protein,Routine blood tests
+49,F,Mini Bypass,3-6 months,47.4,dumping,solid food,Protein B12,Routine blood tests
+44,M,Sleeve,3-6 months,41.2,none,solid food,Protein B12,Hydration monitoring
+58,F,Sleeve,6+ months,32.1,none,balanced diet,Protein Iron,Chew food well
+27,F,Mini Bypass,1-7 days,40.7,fatigue,clear liquids,Iron B12,Small frequent meals
+24,M,Sleeve,1-7 days,31.5,fatigue,clear liquids,Multivitamin,Increase protein intake
+55,M,Sleeve,3-6 months,30.0,fatigue,solid food,Iron B12,Chew food well
+22,M,Mini Bypass,3-6 months,29.4,hair loss,solid food,Protein B12,Small frequent meals
+39,M,Mini Bypass,1-3 months,32.6,dumping,soft food,Multivitamin,Eat slowly
+54,F,Gastric Bypass,1-7 days,43.9,fatigue,clear liquids,Calcium D vitamin,Chew food well
+51,M,Sleeve,1-3 months,41.5,hair loss,soft food,Multivitamin,Routine blood tests
+29,F,Mini Bypass,3-6 months,34.4,dumping,solid food,Protein,Small frequent meals
+47,F,Mini Bypass,1-7 days,46.7,acid reflux,clear liquids,Calcium D vitamin,Eat slowly
+40,F,Sleeve,1-3 months,42.1,fatigue,soft food,Iron B12,Small frequent meals
+37,M,Sleeve,1-3 months,30.5,constipation,soft food,Iron B12,Regular physical activity
+57,F,Sleeve,6+ months,32.3,constipation,balanced diet,Protein Iron,Routine blood tests
+20,F,Gastric Bypass,3-6 months,31.4,hair loss,solid food,Protein Calcium,Chew food well
+44,F,Mini Bypass,3-6 months,34.6,constipation,solid food,Multivitamin,Eat slowly
+54,M,Gastric Bypass,2-4 weeks,29.5,vomiting,pureed food,Iron B12,Eat slowly
+42,F,Mini Bypass,1-3 months,41.3,vomiting,soft food,Multivitamin,Small frequent meals
+63,M,Mini Bypass,1-3 months,28.7,acid reflux,soft food,Protein,Routine blood tests
+41,M,Gastric Bypass,2-4 weeks,32.8,fatigue,pureed food,Protein B12,Small frequent meals
+20,F,Sleeve,1-3 months,37.8,none,soft food,Protein Calcium,Routine blood tests
+27,F,Gastric Bypass,6+ months,48.3,fatigue,balanced diet,Protein Calcium,Chew food well
+24,F,Sleeve,2-4 weeks,43.9,hair loss,pureed food,Calcium D vitamin,Small frequent meals
+37,F,Mini Bypass,1-7 days,46.7,nausea,clear liquids,Iron B12,Routine blood tests
+24,M,Sleeve,1-7 days,40.7,fatigue,clear liquids,Protein Iron,Avoid sugar
+30,F,Gastric Bypass,1-3 months,34.1,constipation,soft food,Protein Calcium,Routine blood tests
+35,F,Sleeve,1-7 days,34.0,none,clear liquids,Multivitamin,Small frequent meals
+52,M,Mini Bypass,2-4 weeks,35.0,vomiting,pureed food,Protein Iron,Hydration monitoring
+33,F,Sleeve,6+ months,34.9,constipation,balanced diet,Multivitamin,Routine blood tests
+26,F,Gastric Bypass,1-7 days,47.9,none,clear liquids,Protein,Regular physical activity
+23,M,Gastric Bypass,1-7 days,31.9,hair loss,clear liquids,Multivitamin,Chew food well
+39,F,Mini Bypass,1-3 months,44.7,nausea,soft food,Protein Calcium,Routine blood tests
+26,F,Mini Bypass,6+ months,38.3,hair loss,balanced diet,Iron B12,Routine blood tests
+32,F,Sleeve,3-6 months,46.9,fatigue,solid food,Iron B12,Regular physical activity
+62,M,Gastric Bypass,2-4 weeks,38.0,none,pureed food,Protein,Routine blood tests
+40,M,Gastric Bypass,1-7 days,46.6,fatigue,clear liquids,Protein Calcium,Chew food well
+54,F,Mini Bypass,6+ months,30.3,nausea,balanced diet,Iron B12,Small frequent meals
+52,M,Gastric Bypass,1-3 months,41.0,dumping,soft food,Multivitamin,Avoid sugar
+28,M,Gastric Bypass,6+ months,29.5,dumping,balanced diet,Protein Calcium,Regular physical activity
+54,M,Mini Bypass,3-6 months,43.3,vomiting,solid food,Protein Iron,Small frequent meals
+49,F,Mini Bypass,6+ months,41.1,constipation,balanced diet,Multivitamin,Small frequent meals
+29,M,Gastric Bypass,3-6 months,29.5,nausea,solid food,Protein Iron,Regular physical activity
+49,F,Sleeve,1-3 months,32.8,vomiting,soft food,Multivitamin,Eat slowly
+60,F,Gastric Bypass,2-4 weeks,39.7,acid reflux,pureed food,Multivitamin,Routine blood tests
+31,M,Gastric Bypass,2-4 weeks,40.5,fatigue,pureed food,Calcium D vitamin,Chew food well
+55,F,Mini Bypass,1-7 days,49.7,acid reflux,clear liquids,Protein Calcium,Increase protein intake
+21,M,Mini Bypass,1-3 months,49.3,none,soft food,Protein Iron,Chew food well
+36,F,Sleeve,1-7 days,37.5,acid reflux,clear liquids,Protein Iron,Chew food well
+43,M,Gastric Bypass,3-6 months,40.0,vomiting,solid food,Calcium D vitamin,Increase protein intake
+53,M,Gastric Bypass,2-4 weeks,46.5,vomiting,pureed food,Iron B12,Increase protein intake
+18,F,Mini Bypass,2-4 weeks,28.3,hair loss,pureed food,Protein Iron,Regular physical activity
+23,F,Mini Bypass,2-4 weeks,45.7,hair loss,pureed food,Protein Calcium,Regular physical activity
+29,M,Mini Bypass,6+ months,37.3,hair loss,balanced diet,Calcium D vitamin,Chew food well
+29,M,Mini Bypass,2-4 weeks,28.2,hair loss,pureed food,Protein Calcium,Avoid sugar
+35,M,Mini Bypass,6+ months,40.7,none,balanced diet,Protein,Routine blood tests
+25,M,Mini Bypass,1-3 months,29.8,fatigue,soft food,Calcium D vitamin,Small frequent meals
+57,F,Sleeve,6+ months,38.4,nausea,balanced diet,Protein Iron,Hydration monitoring
+21,M,Mini Bypass,6+ months,45.1,hair loss,balanced diet,Calcium D vitamin,Routine blood tests
+64,M,Gastric Bypass,6+ months,35.8,fatigue,balanced diet,Iron B12,Increase protein intake
+62,M,Mini Bypass,1-7 days,45.3,fatigue,clear liquids,Protein,Routine blood tests
+28,F,Mini Bypass,6+ months,49.8,none,balanced diet,Iron B12,Routine blood tests
+26,F,Gastric Bypass,1-7 days,33.5,fatigue,clear liquids,Iron B12,Hydration monitoring
+25,F,Mini Bypass,1-7 days,44.3,hair loss,clear liquids,Iron B12,Increase protein intake
+62,F,Gastric Bypass,1-3 months,32.0,none,soft food,Iron B12,Small frequent meals
+56,F,Gastric Bypass,2-4 weeks,44.6,acid reflux,pureed food,Protein Calcium,Regular physical activity
+60,M,Mini Bypass,2-4 weeks,42.0,dumping,pureed food,Multivitamin,Chew food well
+59,M,Sleeve,1-7 days,29.2,hair loss,clear liquids,Calcium D vitamin,Routine blood tests
+48,F,Gastric Bypass,1-3 months,43.0,acid reflux,soft food,Calcium D vitamin,Hydration monitoring
+51,M,Sleeve,2-4 weeks,34.4,hair loss,pureed food,Calcium D vitamin,Chew food well
+61,F,Sleeve,6+ months,48.2,constipation,balanced diet,Protein Calcium,Regular physical activity
+59,M,Gastric Bypass,6+ months,33.9,nausea,balanced diet,Iron B12,Regular physical activity
+61,F,Mini Bypass,3-6 months,42.8,dumping,solid food,Multivitamin,Chew food well
+38,F,Mini Bypass,2-4 weeks,28.2,nausea,pureed food,Protein,Regular physical activity
+51,F,Mini Bypass,1-7 days,37.8,dumping,clear liquids,Protein Iron,Hydration monitoring
+30,F,Sleeve,1-3 months,41.6,none,soft food,Multivitamin,Avoid sugar
+58,F,Mini Bypass,6+ months,49.1,nausea,balanced diet,Protein Calcium,Increase protein intake
+60,F,Sleeve,3-6 months,43.3,fatigue,solid food,Iron B12,Routine blood tests
+58,M,Gastric Bypass,1-7 days,44.9,constipation,clear liquids,Iron B12,Increase protein intake
+35,F,Gastric Bypass,1-7 days,36.5,none,clear liquids,Iron B12,Hydration monitoring
+46,F,Gastric Bypass,2-4 weeks,49.5,dumping,pureed food,Multivitamin,Regular physical activity
+59,M,Sleeve,2-4 weeks,31.2,acid reflux,pureed food,Protein B12,Small frequent meals
+63,M,Sleeve,3-6 months,28.8,nausea,solid food,Multivitamin,Hydration monitoring
+19,M,Sleeve,3-6 months,42.4,none,solid food,Protein,Regular physical activity
+27,M,Gastric Bypass,1-3 months,40.6,hair loss,soft food,Calcium D vitamin,Regular physical activity
+64,F,Mini Bypass,3-6 months,33.0,acid reflux,solid food,Protein Iron,Routine blood tests
+54,M,Gastric Bypass,1-7 days,43.0,acid reflux,clear liquids,Protein,Small frequent meals
+52,M,Sleeve,1-3 months,46.5,fatigue,soft food,Protein Iron,Avoid sugar
+53,F,Gastric Bypass,2-4 weeks,42.5,fatigue,pureed food,Protein Iron,Regular physical activity
+58,M,Gastric Bypass,1-7 days,29.9,hair loss,clear liquids,Protein Iron,Avoid sugar
+20,F,Sleeve,2-4 weeks,43.8,dumping,pureed food,Calcium D vitamin,Regular physical activity
+52,M,Gastric Bypass,1-7 days,39.7,hair loss,clear liquids,Protein,Eat slowly
+21,M,Mini Bypass,1-3 months,28.9,nausea,soft food,Protein B12,Routine blood tests
+27,F,Sleeve,6+ months,28.8,vomiting,balanced diet,Calcium D vitamin,Eat slowly
+57,F,Sleeve,3-6 months,43.4,vomiting,solid food,Protein,Increase protein intake
+37,F,Gastric Bypass,1-7 days,41.4,nausea,clear liquids,Protein Calcium,Small frequent meals
+49,F,Sleeve,1-7 days,45.7,acid reflux,clear liquids,Iron B12,Regular physical activity
+25,F,Gastric Bypass,1-3 months,46.4,dumping,soft food,Protein Calcium,Eat slowly
+29,M,Sleeve,6+ months,30.7,vomiting,balanced diet,Protein Calcium,Regular physical activity
+62,M,Mini Bypass,2-4 weeks,31.6,dumping,pureed food,Multivitamin,Eat slowly
+24,M,Sleeve,2-4 weeks,28.3,hair loss,pureed food,Protein,Eat slowly
+29,F,Mini Bypass,1-7 days,42.3,fatigue,clear liquids,Calcium D vitamin,Routine blood tests
+31,F,Mini Bypass,2-4 weeks,34.0,hair loss,pureed food,Calcium D vitamin,Avoid sugar
+57,F,Mini Bypass,2-4 weeks,32.0,hair loss,pureed food,Multivitamin,Small frequent meals
+40,M,Sleeve,1-3 months,40.3,dumping,soft food,Protein,Small frequent meals
+41,F,Gastric Bypass,6+ months,44.9,dumping,balanced diet,Iron B12,Eat slowly
+25,F,Mini Bypass,2-4 weeks,46.6,hair loss,pureed food,Calcium D vitamin,Increase protein intake
+60,F,Sleeve,2-4 weeks,42.2,fatigue,pureed food,Protein B12,Regular physical activity
+39,M,Sleeve,1-3 months,30.3,none,soft food,Multivitamin,Increase protein intake
+19,M,Mini Bypass,2-4 weeks,30.6,dumping,pureed food,Protein Iron,Routine blood tests
+55,M,Gastric Bypass,6+ months,32.4,constipation,balanced diet,Protein B12,Small frequent meals
+32,F,Sleeve,1-3 months,44.2,dumping,soft food,Calcium D vitamin,Avoid sugar
+48,M,Sleeve,1-7 days,47.6,vomiting,clear liquids,Protein B12,Routine blood tests
+42,M,Sleeve,2-4 weeks,38.1,dumping,pureed food,Protein Iron,Chew food well
+30,M,Sleeve,1-3 months,28.7,none,soft food,Iron B12,Increase protein intake
+47,M,Gastric Bypass,1-7 days,31.8,constipation,clear liquids,Protein B12,Hydration monitoring
+28,F,Mini Bypass,6+ months,49.3,dumping,balanced diet,Protein,Regular physical activity
+49,F,Mini Bypass,6+ months,38.4,hair loss,balanced diet,Iron B12,Eat slowly
+33,F,Gastric Bypass,3-6 months,37.6,dumping,solid food,Multivitamin,Increase protein intake
+18,M,Sleeve,6+ months,28.9,hair loss,balanced diet,Protein Iron,Eat slowly
+51,M,Gastric Bypass,3-6 months,45.8,nausea,solid food,Calcium D vitamin,Routine blood tests
+23,F,Mini Bypass,2-4 weeks,44.1,dumping,pureed food,Protein B12,Chew food well
+33,F,Sleeve,1-3 months,38.6,fatigue,soft food,Protein B12,Routine blood tests
+55,F,Gastric Bypass,6+ months,38.2,vomiting,balanced diet,Protein Calcium,Regular physical activity
+41,M,Mini Bypass,2-4 weeks,41.9,nausea,pureed food,Calcium D vitamin,Chew food well
+20,M,Gastric Bypass,6+ months,44.6,dumping,balanced diet,Protein Calcium,Small frequent meals
+39,F,Mini Bypass,6+ months,48.8,constipation,balanced diet,Protein,Small frequent meals
+41,M,Mini Bypass,3-6 months,28.9,constipation,solid food,Protein B12,Small frequent meals
+63,F,Sleeve,6+ months,49.6,dumping,balanced diet,Multivitamin,Small frequent meals
+55,F,Mini Bypass,3-6 months,44.7,constipation,solid food,Iron B12,Hydration monitoring
+61,M,Gastric Bypass,6+ months,29.2,constipation,balanced diet,Iron B12,Routine blood tests
+50,F,Gastric Bypass,3-6 months,43.6,fatigue,solid food,Calcium D vitamin,Chew food well
+30,M,Sleeve,1-7 days,29.8,vomiting,clear liquids,Iron B12,Small frequent meals
+28,M,Sleeve,1-7 days,43.3,hair loss,clear liquids,Protein B12,Avoid sugar
+58,F,Gastric Bypass,6+ months,37.2,vomiting,balanced diet,Calcium D vitamin,Chew food well
+46,F,Gastric Bypass,3-6 months,32.2,none,solid food,Protein Calcium,Avoid sugar
+59,M,Gastric Bypass,6+ months,40.7,constipation,balanced diet,Calcium D vitamin,Routine blood tests
+37,F,Gastric Bypass,3-6 months,31.8,fatigue,solid food,Protein B12,Routine blood tests
+36,F,Sleeve,1-3 months,35.8,hair loss,soft food,Protein B12,Increase protein intake
+36,F,Sleeve,6+ months,46.5,vomiting,balanced diet,Protein B12,Avoid sugar
+20,M,Mini Bypass,1-7 days,30.8,fatigue,clear liquids,Iron B12,Increase protein intake
+53,F,Mini Bypass,2-4 weeks,35.0,constipation,pureed food,Protein B12,Chew food well
+52,F,Mini Bypass,3-6 months,34.6,none,solid food,Calcium D vitamin,Routine blood tests
+47,M,Sleeve,2-4 weeks,28.1,constipation,pureed food,Protein Iron,Hydration monitoring
+36,F,Mini Bypass,3-6 months,44.0,hair loss,solid food,Iron B12,Small frequent meals
+20,F,Mini Bypass,3-6 months,40.1,fatigue,solid food,Protein,Regular physical activity
+32,M,Gastric Bypass,6+ months,30.0,none,balanced diet,Multivitamin,Avoid sugar
+51,F,Gastric Bypass,6+ months,32.3,nausea,balanced diet,Multivitamin,Routine blood tests
+50,M,Sleeve,1-7 days,38.8,none,clear liquids,Protein Iron,Chew food well
+27,M,Gastric Bypass,3-6 months,36.5,none,solid food,Iron B12,Chew food well
+37,M,Mini Bypass,1-3 months,29.9,hair loss,soft food,Protein Iron,Regular physical activity
+36,F,Mini Bypass,3-6 months,49.3,acid reflux,solid food,Protein Iron,Regular physical activity
+55,F,Sleeve,2-4 weeks,32.6,hair loss,pureed food,Protein Calcium,Chew food well
+55,M,Sleeve,1-7 days,28.1,fatigue,clear liquids,Calcium D vitamin,Increase protein intake
+47,F,Sleeve,6+ months,32.1,acid reflux,balanced diet,Iron B12,Routine blood tests
+37,M,Gastric Bypass,1-7 days,40.3,hair loss,clear liquids,Protein B12,Eat slowly
+27,M,Gastric Bypass,1-7 days,49.0,hair loss,clear liquids,Protein,Hydration monitoring
+29,M,Mini Bypass,3-6 months,42.2,none,solid food,Protein,Hydration monitoring
+22,M,Mini Bypass,3-6 months,38.6,acid reflux,solid food,Protein Calcium,Hydration monitoring
+62,F,Gastric Bypass,3-6 months,39.3,none,solid food,Protein Calcium,Hydration monitoring
+55,F,Sleeve,2-4 weeks,35.0,vomiting,pureed food,Iron B12,Increase protein intake
+35,M,Gastric Bypass,1-7 days,42.0,constipation,clear liquids,Protein,Hydration monitoring
+51,F,Mini Bypass,1-3 months,32.3,vomiting,soft food,Protein Calcium,Small frequent meals
+28,M,Gastric Bypass,6+ months,46.2,fatigue,balanced diet,Iron B12,Chew food well
+52,M,Sleeve,1-7 days,28.3,fatigue,clear liquids,Iron B12,Routine blood tests
+39,F,Sleeve,3-6 months,32.8,dumping,solid food,Protein Calcium,Avoid sugar
+57,F,Gastric Bypass,6+ months,38.1,nausea,balanced diet,Protein,Increase protein intake
+48,M,Gastric Bypass,1-7 days,43.2,vomiting,clear liquids,Protein Calcium,Routine blood tests
+51,M,Sleeve,6+ months,43.6,none,balanced diet,Protein Iron,Small frequent meals
+26,F,Mini Bypass,2-4 weeks,33.0,vomiting,pureed food,Protein B12,Increase protein intake
+45,F,Sleeve,1-7 days,28.4,hair loss,clear liquids,Protein Calcium,Regular physical activity
+30,F,Sleeve,1-7 days,45.4,none,clear liquids,Calcium D vitamin,Small frequent meals
+20,F,Gastric Bypass,1-3 months,42.7,nausea,soft food,Protein Calcium,Small frequent meals
+31,F,Sleeve,6+ months,42.8,none,balanced diet,Protein,Increase protein intake
+55,M,Gastric Bypass,1-3 months,31.5,dumping,soft food,Multivitamin,Small frequent meals
+55,F,Mini Bypass,1-7 days,32.8,dumping,clear liquids,Iron B12,Increase protein intake
+18,F,Sleeve,6+ months,48.3,hair loss,balanced diet,Iron B12,Increase protein intake
+61,F,Sleeve,3-6 months,46.4,acid reflux,solid food,Calcium D vitamin,Avoid sugar
+32,M,Sleeve,6+ months,44.8,constipation,balanced diet,Protein,Routine blood tests
+51,F,Gastric Bypass,1-7 days,44.8,fatigue,clear liquids,Multivitamin,Eat slowly
+38,M,Sleeve,1-7 days,36.5,hair loss,clear liquids,Multivitamin,Hydration monitoring
+32,M,Gastric Bypass,3-6 months,49.7,acid reflux,solid food,Protein B12,Small frequent meals
+61,M,Sleeve,3-6 months,28.3,hair loss,solid food,Protein Iron,Small frequent meals
+46,F,Sleeve,3-6 months,31.2,acid reflux,solid food,Protein Iron,Small frequent meals
+22,M,Sleeve,2-4 weeks,35.4,acid reflux,pureed food,Protein,Avoid sugar
+64,M,Gastric Bypass,3-6 months,44.8,fatigue,solid food,Protein Calcium,Regular physical activity
+48,M,Gastric Bypass,1-3 months,39.3,vomiting,soft food,Protein Calcium,Routine blood tests
+25,M,Gastric Bypass,1-7 days,38.9,vomiting,clear liquids,Protein,Small frequent meals
+22,M,Mini Bypass,1-7 days,28.6,vomiting,clear liquids,Calcium D vitamin,Chew food well
+37,F,Sleeve,2-4 weeks,42.5,hair loss,pureed food,Protein Calcium,Routine blood tests
+36,M,Gastric Bypass,2-4 weeks,39.1,constipation,pureed food,Protein Calcium,Eat slowly
+45,F,Gastric Bypass,1-7 days,37.9,acid reflux,clear liquids,Calcium D vitamin,Routine blood tests
+20,F,Mini Bypass,1-7 days,42.5,fatigue,clear liquids,Protein Iron,Increase protein intake
+45,F,Gastric Bypass,3-6 months,43.7,hair loss,solid food,Protein Calcium,Small frequent meals
+61,M,Mini Bypass,6+ months,40.2,hair loss,balanced diet,Calcium D vitamin,Increase protein intake
+21,M,Gastric Bypass,6+ months,38.9,acid reflux,balanced diet,Multivitamin,Chew food well
+38,F,Sleeve,1-3 months,41.0,vomiting,soft food,Protein Calcium,Chew food well
+55,F,Mini Bypass,1-3 months,35.5,nausea,soft food,Calcium D vitamin,Chew food well
+44,M,Sleeve,1-3 months,42.5,dumping,soft food,Protein B12,Hydration monitoring
+23,F,Gastric Bypass,6+ months,30.5,vomiting,balanced diet,Protein,Chew food well
+47,M,Mini Bypass,1-7 days,39.3,acid reflux,clear liquids,Iron B12,Eat slowly
+55,F,Gastric Bypass,3-6 months,36.3,acid reflux,solid food,Iron B12,Small frequent meals
+24,F,Gastric Bypass,3-6 months,38.9,constipation,solid food,Protein B12,Hydration monitoring
+45,F,Gastric Bypass,1-3 months,42.0,nausea,soft food,Protein Calcium,Avoid sugar
+34,F,Gastric Bypass,1-3 months,49.9,acid reflux,soft food,Protein Calcium,Avoid sugar
+23,F,Mini Bypass,6+ months,35.4,nausea,balanced diet,Multivitamin,Routine blood tests
+31,M,Sleeve,3-6 months,42.3,fatigue,solid food,Multivitamin,Hydration monitoring
+60,M,Sleeve,3-6 months,37.1,fatigue,solid food,Multivitamin,Routine blood tests
+29,F,Mini Bypass,6+ months,43.5,vomiting,balanced diet,Multivitamin,Routine blood tests
+60,M,Gastric Bypass,2-4 weeks,48.6,acid reflux,pureed food,Multivitamin,Eat slowly
+30,M,Gastric Bypass,6+ months,31.3,vomiting,balanced diet,Protein Iron,Hydration monitoring
+44,M,Sleeve,3-6 months,41.9,acid reflux,solid food,Iron B12,Hydration monitoring
+34,F,Gastric Bypass,2-4 weeks,33.2,vomiting,pureed food,Protein B12,Eat slowly
+37,M,Gastric Bypass,2-4 weeks,40.3,acid reflux,pureed food,Calcium D vitamin,Eat slowly
+28,M,Sleeve,2-4 weeks,28.6,fatigue,pureed food,Protein Iron,Increase protein intake
+64,M,Sleeve,1-7 days,29.2,nausea,clear liquids,Iron B12,Hydration monitoring
+44,M,Mini Bypass,1-7 days,42.5,nausea,clear liquids,Calcium D vitamin,Increase protein intake
+25,F,Mini Bypass,2-4 weeks,42.6,fatigue,pureed food,Calcium D vitamin,Small frequent meals
+56,F,Gastric Bypass,2-4 weeks,35.2,acid reflux,pureed food,Protein Calcium,Avoid sugar
+31,F,Sleeve,3-6 months,31.9,fatigue,solid food,Calcium D vitamin,Regular physical activity
+55,F,Gastric Bypass,1-3 months,39.7,nausea,soft food,Iron B12,Regular physical activity
+61,F,Gastric Bypass,3-6 months,47.3,vomiting,solid food,Iron B12,Routine blood tests
+37,F,Mini Bypass,1-3 months,49.3,none,soft food,Protein Calcium,Eat slowly
+34,M,Gastric Bypass,2-4 weeks,42.1,constipation,pureed food,Protein Calcium,Small frequent meals
+33,M,Gastric Bypass,6+ months,28.2,acid reflux,balanced diet,Iron B12,Hydration monitoring
+33,M,Sleeve,1-7 days,46.9,vomiting,clear liquids,Calcium D vitamin,Chew food well
+20,M,Sleeve,3-6 months,46.1,hair loss,solid food,Calcium D vitamin,Regular physical activity
+63,M,Sleeve,1-3 months,46.1,fatigue,soft food,Multivitamin,Small frequent meals
+44,M,Gastric Bypass,1-3 months,43.3,none,soft food,Protein Iron,Increase protein intake
+59,F,Sleeve,3-6 months,36.8,fatigue,solid food,Iron B12,Small frequent meals
+28,F,Mini Bypass,1-7 days,43.7,vomiting,clear liquids,Protein Calcium,Regular physical activity
+46,M,Mini Bypass,1-3 months,30.9,vomiting,soft food,Protein Iron,Chew food well
+30,F,Gastric Bypass,1-3 months,36.1,acid reflux,soft food,Calcium D vitamin,Avoid sugar
+19,F,Sleeve,1-7 days,49.4,dumping,clear liquids,Iron B12,Increase protein intake
+43,M,Mini Bypass,1-7 days,33.7,nausea,clear liquids,Iron B12,Increase protein intake
+25,F,Mini Bypass,6+ months,39.6,hair loss,balanced diet,Protein Calcium,Routine blood tests
+32,F,Sleeve,1-7 days,48.8,fatigue,clear liquids,Iron B12,Routine blood tests
+26,M,Sleeve,3-6 months,41.2,fatigue,solid food,Protein Iron,Avoid sugar
+29,M,Sleeve,3-6 months,28.6,fatigue,solid food,Protein B12,Routine blood tests
+41,M,Sleeve,2-4 weeks,28.2,vomiting,pureed food,Protein Calcium,Chew food well
+61,F,Mini Bypass,3-6 months,36.4,acid reflux,solid food,Protein Iron,Hydration monitoring
+24,F,Sleeve,1-7 days,35.3,dumping,clear liquids,Calcium D vitamin,Chew food well
+60,F,Sleeve,6+ months,33.6,acid reflux,balanced diet,Iron B12,Regular physical activity
+26,F,Mini Bypass,1-3 months,31.9,vomiting,soft food,Multivitamin,Routine blood tests
+47,F,Sleeve,1-3 months,35.0,acid reflux,soft food,Protein B12,Hydration monitoring
+38,F,Sleeve,1-7 days,39.0,fatigue,clear liquids,Protein Iron,Chew food well
+36,M,Mini Bypass,3-6 months,46.3,fatigue,solid food,Multivitamin,Chew food well
+28,M,Mini Bypass,3-6 months,49.9,vomiting,solid food,Multivitamin,Routine blood tests
+30,F,Sleeve,1-7 days,33.1,none,clear liquids,Calcium D vitamin,Hydration monitoring
+63,M,Gastric Bypass,2-4 weeks,30.6,hair loss,pureed food,Protein,Routine blood tests
+63,M,Gastric Bypass,1-3 months,38.8,vomiting,soft food,Protein,Chew food well
+31,M,Sleeve,1-7 days,46.4,fatigue,clear liquids,Multivitamin,Avoid sugar
+18,F,Gastric Bypass,6+ months,48.2,dumping,balanced diet,Protein Calcium,Routine blood tests
+39,F,Gastric Bypass,1-7 days,43.0,nausea,clear liquids,Calcium D vitamin,Chew food well
+24,M,Sleeve,6+ months,28.6,hair loss,balanced diet,Protein Calcium,Routine blood tests
+58,M,Mini Bypass,3-6 months,42.5,constipation,solid food,Protein,Routine blood tests
+64,F,Sleeve,1-3 months,47.0,fatigue,soft food,Iron B12,Eat slowly
+53,M,Sleeve,1-7 days,36.8,vomiting,clear liquids,Protein B12,Regular physical activity
+19,F,Sleeve,1-7 days,36.5,acid reflux,clear liquids,Iron B12,Increase protein intake
+37,M,Gastric Bypass,1-7 days,44.2,fatigue,clear liquids,Protein Iron,Increase protein intake
+60,F,Gastric Bypass,1-3 months,39.3,hair loss,soft food,Calcium D vitamin,Regular physical activity
+35,M,Sleeve,3-6 months,44.6,constipation,solid food,Multivitamin,Increase protein intake
+58,M,Sleeve,3-6 months,28.9,constipation,solid food,Calcium D vitamin,Avoid sugar
+49,F,Gastric Bypass,2-4 weeks,38.3,nausea,pureed food,Protein Calcium,Routine blood tests
+27,F,Mini Bypass,1-3 months,47.9,dumping,soft food,Multivitamin,Regular physical activity
+54,F,Mini Bypass,1-3 months,29.7,none,soft food,Multivitamin,Small frequent meals
+45,M,Sleeve,6+ months,38.2,fatigue,balanced diet,Iron B12,Hydration monitoring
+23,F,Sleeve,6+ months,44.3,hair loss,balanced diet,Protein B12,Increase protein intake
+20,F,Gastric Bypass,3-6 months,47.3,fatigue,solid food,Iron B12,Routine blood tests
