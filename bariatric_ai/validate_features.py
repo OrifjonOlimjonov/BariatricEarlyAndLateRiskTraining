@@ -82,11 +82,6 @@ def print_feature_analysis():
         print("These columns may indicate data leakage!")
         print("!"*80)
         print()
-        return_code = 1
-    else:
-        print("✓ No forbidden patterns detected")
-        print()
-        return_code = 0
     
     # Print all features
     print("="*80)
@@ -111,19 +106,21 @@ def print_feature_analysis():
     
     # Validate using the built-in validator
     print("Running validation...")
+    validation_passed = False
     try:
         validate_feature_columns(feature_cols)
         print("✓ VALIDATION PASSED: No data leakage detected")
         print()
+        validation_passed = True
     except ValueError as e:
         print("✗ VALIDATION FAILED:")
         print(str(e))
         print()
-        return_code = 1
     
     print("="*80)
     
-    return return_code
+    # Return 0 only if no suspicious columns found AND validation passed
+    return 0 if (not suspicious and validation_passed) else 1
 
 
 if __name__ == "__main__":

@@ -151,12 +151,12 @@ class TestLeakageDetection(unittest.TestCase):
             ("twl_12m", True),
             ("early_twl_12m_true_mean", True),
             ("some_12m_true_value", True),
-            # These should NOT match
+            # These should NOT match (legitimate feature names)
             ("age", False),
             ("weight_kg", False),
             ("early_weight_kg_mean", False),
             ("ferritin", False),
-            ("early_ferritin_12w", False),  # 12 weeks, not 12 months
+            ("early_ferritin_12w", False),  # 12w (weeks), not caught by _12m or _12m_true patterns
         ]
         
         for column, should_match in test_cases:
