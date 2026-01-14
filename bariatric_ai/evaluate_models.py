@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 import numpy as np
@@ -22,10 +23,10 @@ from lightgbm import LGBMClassifier, LGBMRegressor
 from sklearn.svm import SVC
 
 
-LONG_PATH = "data_out/bariatric_long_10000_seed42.csv"
-OUT_PATH  = "data_out/bariatric_outcomes_10000_seed42.csv"
+LONG_PATH = os.getenv("BARIATRIC_LONG_PATH", "data_out/bariatric_long_10000_seed42.csv")
+OUT_PATH = os.getenv("BARIATRIC_OUTCOMES_PATH", "data_out/bariatric_outcomes_10000_seed42.csv")
 
-REPORT_DIR = Path("reports")
+REPORT_DIR = Path(os.getenv("BARIATRIC_REPORT_DIR", "reports"))
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -37,6 +38,35 @@ TIMEPOINT_ORDER = {
     "6m": 4,
     "12m": 5,
 }
+
+# ---- Leakage guards (fail-fast) ----
+FORBIDDEN_FEATURE_PATTERNS = [
+    r"readmission",
+    r"complication",
+    r"_def_12m$",
+    r"any_def_12m$",
+    r"twl_12m$",
+    r"\b12m\b",
+    r"\b6m\b",
+    r"\b3m\b",
+]
+
+def assert_no_leakage(feature_cols):
+    bad = []
+    for c in feature_cols:
+        for pat in FORBIDDEN_FEATURE_PATTERNS:
+            if re.search(pat, c, flags=re.IGNORECASE):
+                bad.append(c)
+                break
+
+    if bad:
+        bad = sorted(set(bad))
+        raise ValueError(
+            "Potential label/time leakage: forbidden columns detected in feature_cols:\n"
+            + "\n".join(f"- {x}" for x in bad)
+            + "\n\nFix: ensure features are built only from discharge + early (2w/1m) "
+              "and do not include any outcome-derived columns."
+        )
 
 
 def _normalize_timepoint(tp):
@@ -59,6 +89,11 @@ def _normalize_timepoint(tp):
 
 
 def build_features(long_df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Builds per-patient features strictly from:
+    - discharge snapshot
+    - early follow-ups (2w, 1m) aggregated numeric statistics
+    """
     df = long_df.copy()
 
     if "patient_id" not in df.columns:
@@ -190,18 +225,29 @@ def main():
 
     if "patient_id" not in outcomes.columns:
         raise ValueError("outcomes must include patient_id")
+
+    # Any column in outcomes (except patient_id) is treated as an outcome/label and must NOT be used as a feature
+    outcome_cols = [c for c in outcomes.columns if c != "patient_id"]
+
     data = X.merge(outcomes, on="patient_id", how="inner")
 
     targets_clf = ["readmission_30d", "complication_90d", "any_def_12m"]
     target_reg = "twl_12m"
 
+    # Split per patient (data is already 1 row per patient here)
     train_df, test_df = train_test_split(
         data, test_size=0.15, random_state=42, stratify=data["any_def_12m"]
     )
 
-    feature_cols = [c for c in data.columns if c not in ["patient_id"] + targets_clf + [target_reg]]
+    # Build features by excluding ALL outcomes, not only the 3 main targets
+    drop_cols = ["patient_id"] + outcome_cols
+    feature_cols = [c for c in data.columns if c not in drop_cols]
+
+    # Safety check
+    assert_no_leakage(feature_cols)
+
     X_train = train_df[feature_cols].copy()
-    X_test  = test_df[feature_cols].copy()
+    X_test = test_df[feature_cols].copy()
 
     pre_tree = make_preprocessor(X_train, scale_numeric=False)
     pre_svm = make_preprocessor(X_train, scale_numeric=True)
@@ -211,7 +257,7 @@ def main():
     # --- Classification ---
     for ycol in targets_clf:
         y_train = train_df[ycol].astype(int).to_numpy()
-        y_test  = test_df[ycol].astype(int).to_numpy()
+        y_test = test_df[ycol].astype(int).to_numpy()
 
         # --- LightGBM + calibration ---
         lgbm = LGBMClassifier(
@@ -302,7 +348,7 @@ def main():
 
     # --- Regression ---
     y_train_r = train_df[target_reg].astype(float)
-    y_test_r  = test_df[target_reg].astype(float)
+    y_test_r = test_df[target_reg].astype(float)
 
     lgbm_r = LGBMRegressor(
         n_estimators=800,
