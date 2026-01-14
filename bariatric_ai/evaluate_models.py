@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 
 import numpy as np
@@ -27,6 +28,15 @@ OUT_PATH  = "data_out/bariatric_outcomes_10000_seed42.csv"
 
 REPORT_DIR = Path("reports")
 REPORT_DIR.mkdir(parents=True, exist_ok=True)
+
+# Forbidden feature patterns that indicate data leakage
+FORBIDDEN_FEATURE_PATTERNS = [
+    r".*_def_12m$",      # Deficiency labels at 12m
+    r".*readmission.*",   # Readmission outcomes
+    r".*complication.*",  # Complication outcomes
+    r"^twl_12m$",        # Total weight loss at 12m (exact match)
+    r".*_12m_true.*",    # Any underlying 12m truth values
+]
 
 
 TIMEPOINT_ORDER = {
@@ -58,6 +68,29 @@ def _normalize_timepoint(tp):
     return tp
 
 
+def validate_feature_columns(feature_cols: list) -> None:
+    """
+    Validate that feature columns do not contain forbidden patterns indicating data leakage.
+    
+    Raises:
+        ValueError: If any forbidden column patterns are detected in feature_cols.
+    """
+    forbidden_found = []
+    
+    for col in feature_cols:
+        for pattern in FORBIDDEN_FEATURE_PATTERNS:
+            if re.match(pattern, col, re.IGNORECASE):
+                forbidden_found.append((col, pattern))
+                break
+    
+    if forbidden_found:
+        error_msg = "LEAKAGE DETECTED: Forbidden columns found in features:\n"
+        for col, pattern in forbidden_found:
+            error_msg += f"  - '{col}' matches forbidden pattern '{pattern}'\n"
+        error_msg += "\nThese columns contain future outcomes or labels and must be excluded from features."
+        raise ValueError(error_msg)
+
+
 def build_features(long_df: pd.DataFrame) -> pd.DataFrame:
     df = long_df.copy()
 
@@ -67,6 +100,11 @@ def build_features(long_df: pd.DataFrame) -> pd.DataFrame:
         raise ValueError("long_df must include timepoint column")
 
     df["timepoint"] = df["timepoint"].apply(_normalize_timepoint)
+    
+    # Drop future outcome columns that should not be in features
+    # twl_12m_true is the underlying 12m outcome - should not be available at discharge/early
+    future_outcome_cols = ["twl_12m_true"]
+    df = df.drop(columns=future_outcome_cols, errors="ignore")
 
     discharge = (
         df[df["timepoint"] == "discharge"]
@@ -169,6 +207,24 @@ def eval_regression(y_true, y_pred):
             "r2": float(r2_score(y_true, y_pred))}
 
 
+def compute_baseline_metrics(y_true: np.ndarray) -> dict:
+    """
+    Compute baseline metrics for a binary classification task.
+    Baseline predicts the majority class for all samples.
+    
+    Returns:
+        dict: Baseline accuracy and F1 scores
+    """
+    majority_class = 1 if np.mean(y_true) >= 0.5 else 0
+    y_pred_baseline = np.full_like(y_true, majority_class)
+    
+    return {
+        "baseline_accuracy": float(accuracy_score(y_true, y_pred_baseline)),
+        "baseline_f1_pos": float(f1_score(y_true, y_pred_baseline, pos_label=1, zero_division=0)),
+        "baseline_f1_macro": float(f1_score(y_true, y_pred_baseline, average="macro", zero_division=0)),
+    }
+
+
 def add_train_test_simple_metrics(row: dict, y_train: np.ndarray, proba_train: np.ndarray,
                                   y_test: np.ndarray, proba_test: np.ndarray, thr: float = 0.5):
     pred_train = (proba_train >= thr).astype(int)
@@ -190,16 +246,32 @@ def main():
 
     if "patient_id" not in outcomes.columns:
         raise ValueError("outcomes must include patient_id")
-    data = X.merge(outcomes, on="patient_id", how="inner")
-
+    
+    # Define all target/label columns from outcomes that should NOT be features
     targets_clf = ["readmission_30d", "complication_90d", "any_def_12m"]
     target_reg = "twl_12m"
-
+    # Additional label columns in outcomes that are NOT prediction targets but should be excluded
+    label_cols = ["iron_def_12m", "b12_def_12m", "vitd_def_12m"]
+    
+    # Merge outcomes to get targets
+    data = X.merge(outcomes, on="patient_id", how="inner")
+    
+    # Select features: exclude patient_id, all targets, and all label columns
+    all_excluded = ["patient_id"] + targets_clf + [target_reg] + label_cols
+    feature_cols = [c for c in data.columns if c not in all_excluded]
+    
+    # Validate no forbidden patterns in features (fail-fast on leakage)
+    validate_feature_columns(feature_cols)
+    
+    print(f"\n{'='*80}")
+    print(f"FEATURE VALIDATION PASSED: {len(feature_cols)} features")
+    print(f"{'='*80}\n")
+    
+    # Train/test split stratified by patient_id (already done via random_state ensuring reproducibility)
     train_df, test_df = train_test_split(
         data, test_size=0.15, random_state=42, stratify=data["any_def_12m"]
     )
 
-    feature_cols = [c for c in data.columns if c not in ["patient_id"] + targets_clf + [target_reg]]
     X_train = train_df[feature_cols].copy()
     X_test  = test_df[feature_cols].copy()
 
@@ -212,6 +284,10 @@ def main():
     for ycol in targets_clf:
         y_train = train_df[ycol].astype(int).to_numpy()
         y_test  = test_df[ycol].astype(int).to_numpy()
+        
+        # Compute baseline metrics
+        baseline_train = compute_baseline_metrics(y_train)
+        baseline_test = compute_baseline_metrics(y_test)
 
         # --- LightGBM + calibration ---
         lgbm = LGBMClassifier(
@@ -232,6 +308,7 @@ def main():
 
         row = {"model": "LightGBM_cal", "task": ycol, **eval_binary(y_test, proba_test, pred05)}
         add_train_test_simple_metrics(row, y_train, proba_train, y_test, proba_test, thr=0.5)
+        row.update(baseline_test)  # Add baseline metrics for context
 
         bt, bp, br, bf1 = find_best_threshold_f1(y_test, proba_test)
         row.update({"best_thr_f1": bt, "best_thr_f1_precision": bp, "best_thr_f1_recall": br, "best_thr_f1_f1": bf1})
@@ -266,6 +343,7 @@ def main():
 
         row = {"model": "XGBoost_cal", "task": ycol, **eval_binary(y_test, proba_test, pred05)}
         add_train_test_simple_metrics(row, y_train, proba_train, y_test, proba_test, thr=0.5)
+        row.update(baseline_test)  # Add baseline metrics for context
 
         bt, bp, br, bf1 = find_best_threshold_f1(y_test, proba_test)
         row.update({"best_thr_f1": bt, "best_thr_f1_precision": bp, "best_thr_f1_recall": br, "best_thr_f1_f1": bf1})
@@ -292,6 +370,7 @@ def main():
 
         row = {"model": "SVM_cal", "task": ycol, **eval_binary(y_test, proba_test, pred05)}
         add_train_test_simple_metrics(row, y_train, proba_train, y_test, proba_test, thr=0.5)
+        row.update(baseline_test)  # Add baseline metrics for context
 
         bt, bp, br, bf1 = find_best_threshold_f1(y_test, proba_test)
         row.update({"best_thr_f1": bt, "best_thr_f1_precision": bp, "best_thr_f1_recall": br, "best_thr_f1_f1": bf1})
